@@ -131,7 +131,7 @@
             });
             this.visible = false;
             this.button.removeClass('active');
-            B.checkEmpty(); //??
+//            B.checkEmpty(); //?? //adrian this was causing problems
         },
 
         toggle : function(){
@@ -520,10 +520,11 @@
                 var self = this;
 
                 _.each(this.links, function (linkChild, linkChildId) {
-                    if (B.nodes[linkChildId].checked) {
+                    //temp fix for node links
+                    if (B.nodes[linkChildId] && B.nodes[linkChildId].checked) {
                         _.each(linkChild, function (wtf, linkGrandchildId) {
                             var grandchild = B.nodes[linkGrandchildId];
-
+                            if (!grandchild) { return; } //temp fix for node links
                             grandchild.enablers++;
                             grandchild.enablerStore = grandchild.enablerStore || {};
                             grandchild.enablerStore[self.id] =
@@ -563,10 +564,12 @@
                 var self = this;
 
                 _.each(this.links, function (linkChild, linkChildId) {
-                    if (B.nodes[linkChildId].checked) {
+                    // temp fix for node links
+                    if (B.nodes[linkChildId] && B.nodes[linkChildId].checked) {
                         _.each(linkChild, function (wtf, linkGrandchildId) {
 
                             var grandchild = B.nodes[linkGrandchildId];
+                            if (!grandchild) { return; } //temp fix for node links
                             grandchild.enablers--;
 
                             grandchild.enablerStore[self.id] =

@@ -22,11 +22,11 @@
         var loadChain = new Chain;
         loadChain.chain(
             function () {B.budget = JSON.parse(B.budget)},
-            createElements,
+            createElements2,
             attachEvents,
             function () {
                 if (window.location.hash || window.location.href.split('?')[1]) {
-                    processHash();
+//                    processHash(); //adrian hashcomment
 //                } else {
 //                    removeTransfers();
 //                    special.fundBreakdown.implicitCheck();
@@ -36,7 +36,8 @@
             function () {
                 _.invoke(nodes, 'updateDomCheckState');
                 _.invoke(nodes, 'updateDomEnableState');
-            }
+            },
+            function() { defaultNodes['city'].fireEvent('checkClick'); }
         );
 
         (function callLoadChain() {
@@ -115,6 +116,7 @@
         // Dropdowns built from line data
         _.each(B.budget.hierarchy, function (nodes, id) {
             var text = i++ === 0 ? 'With the following filters...' : '';
+            if (i > 1) { return; }
             var dropdown = dataDropdowns[id] = msd.Dropdown(id, text);
 
             fillHierarchy(dropdown, nodes);
@@ -1057,7 +1059,7 @@
             special.InternalServices.showCompletely();
         }
 
-        /*var fundsSlide = msd.drops.Funds.childContainer.set('reveal', {
+        /*var fundsSlide = msd.dropdowns.Funds.childContainer.set('reveal', {
             mode:'vertical',
             duration:300,
             onComplete: function () {
@@ -1256,6 +1258,257 @@
         });
     }
 
+    function addDepartments(dropdown, selectedCity, childOpts, parentOpts) {
+      var depID = JSON.encode(new Array(dropdown.id,'Departments'));
+      var options = parentOpts || {exclusive:1};
+      var node = nodes[depID] = dropdown.Node(depID,'Departments', options);
+      node.enabled = true;
+      node.updateDomEnableState();
+      options = childOpts || false;
+      fillHierarchy2(node, B.SCOBudgets[selectedCity][selectedCity]["Expenditure"], new Array(dropdown.id,'Departments'), options);
+    }
+    
+    function addExpenditure(dropdown, selectedCity, childOpts, parentOpts) {
+      var expID = JSON.encode(new Array(dropdown.id,'Expenditure'));
+      var options = parentOpts || {exclusive:1};
+      var node = nodes[expID] = dropdown.Node(expID,'Expenditure', options);
+      node.enabled = true;
+      node.updateDomEnableState();
+      options = childOpts || false;
+      fillHierarchy2(node, B.SCOBudgets[selectedCity][selectedCity]["Expenditure"], new Array(dropdown.id,'Expenditure'), options);
+    }
+    
+    function addRevenue(dropdown, selectedCity, childOpts, parentOpts) {
+      var ID = JSON.encode(new Array(dropdown.id,'Revenue'));
+      var options = parentOpts || {exclusive:1};
+      var node = nodes[ID] = dropdown.Node(ID,'Revenue', options);
+      node.enabled = true;
+      node.updateDomEnableState();
+      options = childOpts || false;
+      fillHierarchy2(node, B.SCOBudgets[selectedCity][selectedCity]["Revenue"], new Array(dropdown.id,'Revenue'), options);
+    }
+    
+    function addMetrics(dropdown, selectedCity, childOpts, parentOpts) {
+      var ID = JSON.encode(new Array(dropdown.id,'Metrics'));
+      var options = parentOpts || {exclusive:1};
+      var node = nodes[ID] = dropdown.Node(ID,'Metrics',options);
+      node.enabled = true;
+      node.updateDomEnableState();
+//      fillHierarchy(node, B.SCOMetrics[selectedCity], new Array(dropdown.id,'Metrics'));
+      options = childOpts || false;
+      fillHierarchy2(node, B.SCOBenchmarks[selectedCity], new Array(dropdown.id,'Benchmarks'), options);
+    }
+
+    function changeCity(node) {
+      var selectedCity = "Adelanto";
+      var checked = node.dropdown.checkedNodes;
+      for (var elem in checked) {
+        if (checked.hasOwnProperty(elem)) {
+          selectedCity = checked[elem].text;
+          break;
+        }
+      }
+      var dropID = 'Groupings';
+      var dropText = 'Group based on similar...';
+      var dropdown;
+      if (msd.dropdowns[dropID]) {
+        dropdown = msd.DropdownReplace(dropID, dropText);
+      } else {
+        dropdown = msd.Dropdown(dropID, dropText);
+      }
+      var compID = JSON.encode(new Array('Groupings','Comprehensive'));
+      var node = nodes[compID] = dropdown.Node(compID,'Comprehensive',{title: 0,exclusive: 1,noexpand: 1});
+      node.enabled = true;
+      node.updateDomEnableState();
+      
+      var childOpts = {exclusive:0, title: 0};
+      var parentOpts = {uncheck:1};
+      addDepartments(dropdown, selectedCity, childOpts, parentOpts);
+      addExpenditure(dropdown, selectedCity, childOpts, parentOpts);
+      addRevenue(dropdown, selectedCity, childOpts, parentOpts);
+      addMetrics(dropdown, selectedCity, childOpts, parentOpts);
+      
+      dropID = 'Metrics';
+      dropText = 'Show me...';
+      if (msd.dropdowns[dropID]) {
+        dropdown = msd.DropdownReplace(dropID, dropText);
+      } else {
+        dropdown = msd.Dropdown(dropID, dropText);
+      }
+      addExpenditure(dropdown, selectedCity);
+      addRevenue(dropdown, selectedCity);
+      addMetrics(dropdown, selectedCity);
+
+      _.invoke(nodes, 'updateDomCheckState');
+      _.invoke(nodes, 'updateDomEnableState');
+      
+      storeCityData();
+      nodes[compID].fireEvent('checkClick');
+      nodes[JSON.encode(new Array('Metrics','Expenditure'))].fireEvent('checkClick');
+      nodes[JSON.encode(new Array('Metrics','Expenditure'))].hide();
+    }
+
+    function changeSuggestions(node) {
+      var selectedCity = "Adelanto";
+      var checked = msd.dropdowns['Cities'].checkedNodes;
+      for (var elem in checked) {
+        if (checked.hasOwnProperty(elem)) {
+          selectedCity = checked[elem].text;
+          break;
+        }
+      }
+      
+      var weights = 'Comprehensive';
+      
+      
+      var extraWeights = '{"Expenditure:Public Safety:Fire":".0000003"}';//LEFT OFF HERE DO THE EXPEND/REV WEIGHTS
+//        var measure = '{}';
+//      checked = msd.dropdowns['Groupings'].checkedNodes;
+//      for (var elem in checked) {
+//        if (checked.hasOwnProperty(elem)) {
+//          measure = checked[elem].text
+//          break;
+//        }
+//      }
+      
+//      console.log(city+' '+weights+' '+measure);
+      var jsonReq = new Request.JSON({
+        url: 'print.php',
+        method: 'post',
+        data: {
+          json: 'yes',
+          City: selectedCity,
+          Weights: weights,
+          ExtraWeights: extraWeights
+        },
+        onComplete: function (response) {
+          var dropdown;
+          var dropID = 'Comparable Cities';
+          if (msd.dropdowns['Comparable Cities']) {
+            dropdown = msd.DropdownReplace(dropID, dropID);
+          }else {
+            dropdown = msd.Dropdown(dropID, dropID);
+          }
+          for (var i=0; i<response.length; i++) {
+            var options = {
+              title: 0,
+              noexpand: 1
+            };
+            var ID = JSON.encode(new Array('Comparable Cities',response[i]));
+            var node = nodes[ID] = dropdown.Node(ID,response[i],options);
+            node.enabled = true;
+            node.updateDomEnableState();
+          }
+
+          _.invoke(dropdown.allNodes, 'updateDomCheckState');
+          _.invoke(dropdown.allNodes, 'updateDomEnableState');
+        }
+      });
+      jsonReq.send();
+    }
+
+    function storeCityData() {
+      B.data = {};
+      var checkedCities = {};
+      if (msd.dropdowns['Comparable Cities']) {
+        checkedCities = msd.dropdowns['Comparable Cities'].checkedNodes;
+      }
+      _.each(checkedCities, function(city) {
+        B.data[city.text] = {'Expenditure':B.SCOBudgets[city.text][city.text]['Expenditure'],'Revenue':B.SCOBudgets[city.text][city.text]['Revenue'],'Metrics':B.SCOMetrics[city.text],'Benchmarks':B.SCOBenchmarks[city.text]};
+      });
+      checkedCities = msd.dropdowns['Cities'].checkedNodes;
+      _.each(checkedCities, function(city) {
+        B.data[city.text] = {'Expenditure':B.SCOBudgets[city.text][city.text]['Expenditure'],'Revenue':B.SCOBudgets[city.text][city.text]['Revenue'],'Metrics':B.SCOMetrics[city.text],'Benchmarks':B.SCOBenchmarks[city.text]};
+      });
+//      console.log(B.data);
+//      for (var elem in checkedCities) {
+//        if (checkedCities.hasOwnProperty(elem)) {
+//          var cityName = checkedCities[elem].text;
+//          B.data[cityName] = {'Budget':B.SCOBudgets[cityName],'Metrics':B.SCOMetrics[cityName],'Benchmarks':B.SCOBenchmarks[cityName]};
+//        }
+//      }
+    }
+
+    function getDataToDisplay() {
+      var checked = msd.dropdowns['Metrics'].checkedNodes;    
+      var topNodes = _.filter(checked, function(node) {
+        if (node.partialChecked) {
+          return false;
+        }
+        if (node.mother.isDropdown || !node.mother.checked) {
+          return true;
+        }
+        return false;
+      });
+      graphData = {
+          header: new Array(),
+          dataLines: new Array()
+      };
+      _.each(B.data, function(city, cityName) {
+//        console.log(cityName);
+        _.each(topNodes, function(node) {
+          var dataLine = {
+              name:  cityName,
+              id:    node.id,
+              data: {},
+              subData: {}
+          };
+          var path = JSON.decode(node.id).slice(1);
+          console.log(path);
+          var data = city;
+          var lastLabel = '';//FOR METRIC SPECIAL CASE
+          _.each(path, function(index) {
+            data = data[index];
+            lastLabel = index;//FOR METRIC SPECIAL CASE
+          });
+          if (data) {
+            if (!isNaN(+data)) {//HACKY SPECIAL CASE FOR METRICS
+              dataLine['data'][lastLabel] = +data;
+            } else {
+              dataLine['data'] = aggregateChildren(data);
+            }
+            console.log(dataLine['data']);
+          }
+          _.each(dataLine['data'], function(value, key) {
+            if (graphData['header'].contains(key)) {
+              return;
+            } else {
+              graphData['header'].push(key);
+            }
+          });
+          graphData['dataLines'].push(dataLine);
+//          console.log(data);
+//          console.log(dataLine);
+//          console.log(header);
+        });
+      });
+      graphData['header'].sort();
+//      console.log(graphData);
+    }
+
+    function changeEverything(node) {
+      switch (node.dropdown.id) {
+        case 'Cities':
+          changeCity(node);
+          changeSuggestions(node);
+          break;
+        case 'Groupings':
+          changeSuggestions(node);
+          break;
+        case 'Metrics':
+          getDataToDisplay();
+          B.updateData();
+          break;
+        case 'Comparable Cities':
+          storeCityData();
+          getDataToDisplay();
+          B.updateData();
+          break;
+        default:
+          break;
+      }
+    }
+
     //Attach event handles to DOM elements
     function attachEvents() {
         window.addEvent('resize', resize);
@@ -1272,15 +1525,17 @@
 //        });
 
         msd.addEvent('checkClick', function () {
-            this.breakdown &&
-                setBreakdown(this.breakdown);
+//            this.breakdown &&
+//                setBreakdown(this.breakdown); //adrian
 
             this.toggleExplicitCheckClick();
+            changeEverything(this);
+//            window.fireEvent('resize');
         });
 
         msd.addEvent('textClick', function () {
-            this.breakdown &&
-                setBreakdown(this.breakdown);
+//            this.breakdown &&
+//                setBreakdown(this.breakdown); //adrian
 
             this.explicitTextClick();
         });
@@ -1393,7 +1648,7 @@
         document.id('csvButton').addEvent('click', renderCSV);
         document.id('imgButton').addEvent('click', renderSVG);
 
-        window.onhashchange = processHash;
+//        window.onhashchange = processHash; //adrian hashcomment
 
         window.onorientationchange = resize;
         //window.onhashchange = reloadPage;
@@ -1817,10 +2072,111 @@
     ;
     
     //BENCHMARK FUNCTIONS AND VARIABLES start
+    function createElements2() {
+//        buttonContainer = document.id('graphButtons');
+//        tableContainer  = document.id('table');
+//        legendContainer = document.id('legend');
+//        graphAndLegend = document.id('graphAndLegend');
+
+//        info  = new B.Info();
+//        notes = new B.Notes();
+//        title = new B.Title(document.id('graphTitle'));
+//        graph = new B.Graph();
+
+        msd = B.msd = new B.MultiSelectDropdown(document.id('dropdowns'), {
+            singleDrop:1, text:'Compare'
+        });
+
+        // Create the dropdowns        
+        
+        var dropdown = msd.Dropdown('Cities','My City');
+        var node = nodes['citySearchBox'] = dropdown.SearchBox('citySearchBox','SirNotAppearingInThisFilm',{noexpand:1,nocheckbox:1});
+        node.enabled = true;
+        node.updateDomEnableState();
+        var first = true;
+        for (var key in B.cities) {
+          if (B.cities.hasOwnProperty(key)) {
+            var options = {
+              title: 0,
+              exclusive: 1,
+              noexpand: 1
+            };
+            var obj = B.cities[key];
+            var objID = JSON.encode(new Array('Cities',obj['CityName']));
+            var node = nodes[objID] = dropdown.Node(objID,obj['CityName'],options);
+            node.enabled = true;
+            node.updateDomEnableState();
+            if (first) {
+              defaultNodes['city'] = node;
+              first = false;
+            }
+          }
+        }
+        //enable search box
+        enableSearchBox('citySearchBoxinput','#dropdownCities .dropLabel',nodes['citySearchBox'].element);
 
     
+        
+//        dropdown = msd.Dropdown('Groupings','Group cities based on...', {});
+//        fillHierarchy2(dropdown, B.SCOBudgets["Adelanto"]["Adelanto"]["Expenditure"], new Array('Groupings'));
+//        var compID = JSON.encode(new Array('Groupings','Comprehensive'));
+//        var node = nodes[compID] = dropdown.Node(compID,'Comprehensive',{title: 0,exclusive: 1});
+//        node.enabled = true;
+//        node.updateDomEnableState();
+//        defaultNodes[compID] = node;
+//        
+//        dropdown = msd.Dropdown('Metrics','Show me...', {});
+//        fillHierarchy2(dropdown, B.SCOMetrics["Adelanto"], new Array('Metrics'));
+    }
+
+    // Recursively iterate over the budget hieararchy and fill in the dropdowns
+    //opts is an optional parameter
+    function fillHierarchy2(mother, children, idpath, opts) {
+      _.each(children, function(obj, id) {
+        if (id == "_id" || id == "CityName") {
+          return;
+        }
+        if (id == "Amount" || mother.id == id) {
+          //mother.nocheckbox = false;
+//          if (id == "Amount") {
+//            var zerod = true;
+//            _.each(obj, function(num) {
+//              if (+num != 0) { zerod = false; }
+//            });
+//            if (zerod) {
+//              mother.enabled = false;
+//              mother.updateDomEnableState();
+//            }            
+//          }
+          return;
+        }
+        //console.log(id);
+        var options = opts ? opts : { title: 0, exclusive: 1 };
+        var workingPath = idpath.slice(0);
+        workingPath.push(id);
+        var newID = JSON.encode(workingPath);
+        //console.log(newID);
+        var node = nodes[newID] = mother.Node(newID,id,options);
+        node.enabled = !isEmpty(obj);
+//        node.updateDomEnableState();
+        if (typeof obj == "string" ) {
+          return;
+        }
+        fillHierarchy(node, obj, workingPath);
+      });
+    }
+    
+    function isEmpty(map) {
+      for(var key in map) {
+        if (map.hasOwnProperty(key)) {
+          return false;
+        }
+      }
+      return true;
+    }
 //    var msd;
     var defaultNodes = {};
+    var graphData = {};
     
 }(window, document));
 

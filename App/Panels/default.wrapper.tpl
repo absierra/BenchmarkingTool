@@ -32,6 +32,7 @@
         </script>
         <script type="text/javascript">
           {panel name="unique_categorizations"}
+          {panel name="defaultData"}
         </script>
 
         <div id="overlay"></div>

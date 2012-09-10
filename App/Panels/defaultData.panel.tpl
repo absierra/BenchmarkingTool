@@ -4,4 +4,4 @@
   window.DelphiBudget.cities = {$cities};
   window.DelphiBudget.SCOMetrics = {$SCOMetrics};
   window.DelphiBudget.SCOBudgets = {$SCOBudgets};
-  window.DelphiBudget.SCOBudgets = {$SCOBudgets};
+  window.DelphiBudget.SCOBenchmarks = {$SCOBenchmarks};
