@@ -1,0 +1,2403 @@
+/* RESET */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* /RESET *//* @license
+ * MyFonts Webfont Build ID 2200210, 2012-04-02T16:44:43-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Proxima Nova Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ * 
+ * Webfont: Proxima Nova Bold Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold-it/
+ * 
+ * Webfont: Proxima Nova Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular-it/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2200210
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * © 2012 Bitstream Inc
+*/
+@font-face {
+  font-family: 'ProximaNova';
+  src: url('/Resources/core/webfonts/219292_0_0.eot');
+  src: url('/Resources/core/webfonts/219292_0_0.eot?#iefix') format('embedded-opentype'), url('/Resources/core/webfonts/219292_0_0.woff') format('woff'), url('/Resources/core/webfonts/219292_0_0.ttf') format('truetype'), url('/Resources/core/webfonts/219292_0_0.svg#wf') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNova-BoldItalic';
+  src: url('/Resources/core/webfonts/219292_1_0.eot');
+  src: url('/Resources/core/webfonts/219292_1_0.eot?#iefix') format('embedded-opentype'), url('/Resources/core/webfonts/219292_1_0.woff') format('woff'), url('/Resources/core/webfonts/219292_1_0.ttf') format('truetype'), url('/Resources/core/webfonts/219292_1_0.svg#wf') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNova-Italic';
+  src: url('/Resources/core/webfonts/219292_2_0.eot');
+  src: url('/Resources/core/webfonts/219292_2_0.eot?#iefix') format('embedded-opentype'), url('/Resources/core/webfonts/219292_2_0.woff') format('woff'), url('/Resources/core/webfonts/219292_2_0.ttf') format('truetype'), url('/Resources/core/webfonts/219292_2_0.svg#wf') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('/Resources/core/webfonts/219462_0_0.eot');
+  src: url('/Resources/core/webfonts/219462_0_0.eot?#iefix') format('embedded-opentype'), url('/Resources/core/webfonts/219462_0_0.woff') format('woff'), url('/Resources/core/webfonts/219462_0_0.ttf') format('truetype');
+}
+/* Icons */
+.noTextSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.textSelect {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+body {
+  font-family: "ProximaNova";
+  font-size: 14px;
+  background: url('/Resources/core/img/background.png');
+}
+a {
+  text-decoration: none;
+}
+svg path {
+  cursor: pointer;
+}
+#header {
+  background: #1d1e1e;
+  border-top: 2px solid #8cc63f;
+  height: 42px;
+  line-height: 42px;
+  width: 100%;
+  min-width: 770px;
+  position: relative;
+}
+#header img {
+  vertical-align: middle;
+  margin-left: 15px;
+}
+#header ul {
+  position: absolute;
+  right: 15px;
+  top: 2px;
+  width: 410px;
+}
+#header ul li {
+  margin-left: 15px;
+  display: inline-block;
+  color: #c7c8ca;
+  font-family: "ProximaNova-Bold";
+  white-space: nowrap;
+}
+#header ul li.active {
+  color: #fff;
+  font-family: "ProximaNova-Bold";
+}
+#header ul li a {
+  color: #a7a9ac;
+  font-family: "ProximaNova";
+}
+#header ul li a:hover {
+  color: #fff;
+}
+#controls {
+  position: relative;
+  border-top: 1px solid #5e5d5d;
+}
+#controls hr {
+  border: 0;
+  height: 1px;
+  background: #999;
+  margin-top: 10px;
+}
+.helpIcon {
+  margin-left: 3px;
+  font-size: 12px;
+  cursor: default;
+  letter-spacing: 2px;
+  color: #09c;
+}
+.helpIcon:hover {
+  color: #00ade2;
+}
+/* Start: dropdowns */
+#dropdowns {
+  display: inline-block;
+  height: 42px;
+  color: #fff;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#dropdowns .masterButton {
+  color: #b2b3b6;
+  cursor: pointer;
+  font-family: "ProximaNova-Bold";
+  height: 42px;
+  width: 48px;
+  line-height: 42px;
+  display: inline-block;
+  padding: 0 15px;
+  vertical-align: middle;
+  background: url("/Resources/core/img/filter-button.png") no-repeat 0 0 transparent;
+}
+#dropdowns .masterButton:hover {
+  color: #ccc;
+  background: #333333 url("/Resources/core/img/filter-button.png") no-repeat 0 -39px;
+}
+#dropdowns .masterButton.active {
+  background: #333333 url("/Resources/core/img/filter-button.png") no-repeat 0 -39px;
+}
+#dropdowns .masterDropdown {
+  display: table;
+  position: absolute;
+  z-index: 11;
+}
+#dropdowns .masterDropdown .dropdown {
+  display: table-cell;
+  position: relative;
+  z-index: 4;
+}
+#dropdowns .masterDropdown .dropdown .text {
+  font-family: "ProximaNova-Bold";
+  height: 29px;
+  line-height: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #999999;
+  font-size: 12px;
+  cursor: default;
+  background: #333;
+  width: 100%;
+  text-indent: 15px;
+}
+#dropdowns .masterDropdown .dropdown .dropButton {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #1d1e1e;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-large-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .dropButton:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-large-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px -126px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+  background-color: #1d1e1e;
+}
+#dropdowns .masterDropdown .dropdown .dropButton.expanded {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-large-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .dropButton.expanded:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-large-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px -126px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+  background-color: #1d1e1e;
+}
+#dropdowns .masterDropdown .dropdown .dropButton.disabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-large-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px -84px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown:first-child .dropItem {
+  line-height: 18px !important;
+  margin: 5px 0;
+}
+#dropdowns .masterDropdown .dropdown:first-child .dropItem:first-child {
+  margin-top: 0;
+}
+#dropdowns .masterDropdown .dropdown:first-child .dropItem .dropLabel {
+  white-space: normal;
+  display: inline-block !important;
+  margin-top: 3px;
+}
+#dropdowns .masterDropdown .dropdown:first-child .dropItem .checkbox {
+  vertical-align: top !important;
+  margin: 3px 7px 0 0 !important;
+}
+#dropdowns .masterDropdown .dropdown:first-child .hierarchyAndApply {
+  width: 180px;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .applyContainer {
+  text-align: center;
+  font-family: "ProximaNova-Bold";
+  background: url("/Resources/core/img/bg_dropdown_apply.png") repeat scroll 0 0 transparent;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .rootDropMenu {
+  padding: 5px 12px 10px 12px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  color: white;
+  background: url("/Resources/core/img/k90a95.png") repeat scroll 0 0 transparent;
+  border-top: 1px solid #4c4d4e;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu {
+  line-height: 28px;
+  list-style: none;
+  text-align: left;
+  font-family: "ProximaNova-Bold";
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu.rootDropMenu {
+  display: block;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropMenu .dropMenu {
+  font-family: "ProximaNova";
+  margin-left: 24px;
+  font-size: 12px;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .specialEmployeeBreakDown .dropMenu {
+  margin-left: 42px;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem {
+  display: block;
+  white-space: nowrap;
+  line-height: 28px;
+  font-size: 12px;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.extraPadding {
+  /* for ie */
+
+  padding-right: 10px;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.noChildren > .expand {
+  visibility: hidden;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .noExpand .expand {
+  visibility: hidden;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px -22px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px -22px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded ~ .dropMenu {
+  display: block;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.disabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px -44px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .dropLabel {
+  display: inline-block;
+  white-space: nowrap;
+  cursor: pointer;
+  width: 100%;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .dropLabel:hover {
+  color: #0099cc;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled {
+  color: #666;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .checkbox {
+  visibility: hidden;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .dropLabel {
+  cursor: default;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .dropLabel:hover {
+  color: #666;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 7px;
+  cursor: pointer;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.emptyCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.emptyCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: 0px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.fullCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -36px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.fullCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -36px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.partialCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -18px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.partialCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -18px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.emptyCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/radio-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.emptyCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/radio-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -18px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.fullCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/radio-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -18px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.partialCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/radio-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -36px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.partialCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/radio-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -36px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+/* End: dropdowns */
+.transfers.transfersCheckbox {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.transfers.transfersCheckbox.emptyCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+.transfers.transfersCheckbox.emptyCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: 0px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+.transfers.transfersCheckbox.fullCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -36px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+.transfers.transfersCheckbox.fullCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -36px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+.transfers.transfersCheckbox.partialCheck {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -18px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+.transfers.transfersCheckbox.partialCheck:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/checkbox-icons.png');
+  width: 18px;
+  height: 18px;
+  background-position: -18px -18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+#transfersLi {
+  display: inline-block;
+  white-space: nowrap;
+  border-bottom: 1px dotted #89898a;
+  width: 100%;
+  text-align: left;
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+}
+.transfersLabel {
+  display: inline-block;
+  cursor: pointer;
+  font-style: italic;
+  font-size: 12px;
+}
+.transfersLabel:hover {
+  color: #0099cc;
+}
+#visualize {
+  position: relative;
+  margin-top: 15px;
+  min-width: 480px;
+}
+#graphTitle {
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  z-index: 10;
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+#graphTitle .title_item.has_tooltip {
+  cursor: default;
+  color: #aaa;
+}
+#titleTooltip {
+  position: absolute;
+  background: url("/Resources/core/img/k92a90.png") repeat;
+  color: #e7e7e8;
+  max-width: 70%;
+  padding: 5px 15px;
+  z-index: 9999;
+  border: 1px solid #818285;
+  line-height: 22px;
+}
+.tooltipArrow {
+  position: absolute;
+  top: -7px;
+  left: 46%;
+  background: url("/Resources/core/img/arrow-tooltip.png") no-repeat;
+  display: block;
+  height: 8px;
+  width: 16px;
+}
+#graph {
+  max-height: 90%;
+}
+#legend {
+  position: absolute;
+  top: 0;
+  left: 690px;
+  max-height: 90%;
+  color: #c7c8ca;
+  font-family: "ProximaNova-Bold";
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 28px 0 0;
+}
+#legend ul {
+  margin: 0 10px 0 0;
+}
+#legend li {
+  display: block;
+  list-style-type: none;
+  line-height: 30px;
+  white-space: nowrap;
+}
+#legend li.legendItem {
+  cursor: pointer;
+  position: relative;
+}
+#legend li.legendItem.noExpand .expand {
+  visibility: hidden;
+}
+#legend li.legendItem.noChildren .expand {
+  visibility: hidden;
+}
+#legend li.legendItem.disabled .expand {
+  cursor: default;
+}
+#legend li.legendItem.disabled .legendLabel {
+  cursor: pointer;
+}
+#legend li.legendItem .colorkey {
+  display: inline-block;
+  margin: 0 8px 0 2px;
+  width: 6px;
+  line-height: 34px;
+  height: 34px;
+}
+#legend li.legendItem .legendLabel {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+}
+#legend li.legendItem .legendLabel:hover {
+  color: #0099cc;
+}
+#legend li.legendItem .expand {
+  display: inline-block;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#legend li.legendItem .expand:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px -22px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#legend li.legendItem .expand.visible {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#legend li.legendItem .expand.visible:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px -22px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#legend li.legendItem .expand.disabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px -44px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#legend li.legendItem.expanded .legendUL {
+  margin: 0 0 0 15px;
+}
+#legend li.legendItem.expanded > .legendUL {
+  font-family: "ProximaNova";
+  font-size: 12px;
+}
+#legend li.legendItem.expanded > .expand {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#legend li.legendItem.expanded.disabled > .expand {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/arrow-icons.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px -44px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#legend li.legendItem.hovered .legendLabel {
+  color: #0099cc;
+}
+#graphButtons {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  height: 42px;
+  line-height: 42px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#graphButtons .graphButton {
+  cursor: pointer;
+  display: none;
+}
+#percentageButton.enabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#percentageButton.enabled:hover,
+#percentageButton.enabled.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#stackedButton.enabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#stackedButton.enabled:hover,
+#stackedButton.enabled.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#lineButton.enabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px -52px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#lineButton.enabled:hover,
+#lineButton.enabled.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px -52px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#pieButton.enabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px -78px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#pieButton.enabled:hover,
+#pieButton.enabled.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px -78px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#barButton.enabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px -104px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#barButton.enabled:hover,
+#barButton.enabled.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px -104px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#tableButton.enabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px -130px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#tableButton.enabled:hover,
+#tableButton.enabled.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-type-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px -130px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#table {
+  margin: 15px auto;
+}
+#table table {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  display: block;
+}
+#table table thead,
+#table table tfoot {
+  display: block;
+  position: absolute;
+  background-color: #41b0e6;
+}
+#table table tbody {
+  margin-top: 35px;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: absolute;
+}
+#table table tr {
+  color: #E6E7E8;
+}
+#table table tr.odd {
+  background: url("/Resources/core/img/background_40_percent_white.png") repeat scroll 0 0 transparent;
+}
+#table table tr th {
+  color: #fff;
+  background-color: #19B3E2;
+  font-family: "ProximaNova-Bold";
+  border: 2px dotted #fff;
+  border-width: 0 2px 0 0;
+}
+#table table tr td {
+  text-align: right;
+  padding: 0 10px;
+  border: 2px dotted #787878;
+  border-width: 0 2px 0 0;
+  background: none;
+  white-space: nowrap;
+}
+#table table tr td:first-child {
+  text-align: left;
+}
+#table table tr th,
+#table table tr td {
+  padding: 2px 10px 0;
+  line-height: 32px;
+  font-size: 14px;
+  min-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#table table tr th.head-last-child,
+#table table tr td.head-last-child,
+#table table tr th.tbody-last-child,
+#table table tr td.tbody-last-child,
+#table table tr th.foot-last-child,
+#table table tr td.foot-last-child {
+  border-right: none;
+}
+#table table tfoot th {
+  font-family: "ProximaNova";
+  font-weight: normal;
+  text-align: right;
+}
+#bottomRight {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 50;
+  width: 240px;
+}
+#bottomRight img {
+  margin-left: 15px;
+  position: absolute;
+}
+#bottomRight div {
+  height: 26px;
+  width: 100px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: 5px;
+}
+#bottomRight div.st_facebook_custom {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.st_facebook_custom:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.st_googleplus_custom {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.st_googleplus_custom:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.st_twitter_custom {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -52px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.st_twitter_custom:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -52px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.email_custom {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -78px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.email_custom:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/share-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -78px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#bottomRight div.email_custom a {
+  display: block;
+  height: 26px;
+  width: 26px;
+}
+/* Scroll Bars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(100, 100, 100, 0.8);
+  -webkit-box-shadow: inset 0 0 2px #888888;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(230, 230, 230, 0.8);
+  -webkit-box-shadow: inset 0 0 2px #444444;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(230, 230, 230, 0.2);
+}
+#info {
+  position: absolute;
+  z-index: 10;
+  color: #fff;
+  max-width: 330px;
+  margin-top: 27px;
+  padding: 10px 11px;
+  line-height: 14px;
+  color: #3a3a3c;
+  background: #f3f3f4;
+  border: 1px solid #817c7d;
+  border-bottom: 0;
+  font-size: 12px;
+  text-align: center;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-bottom-right-radius: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 1px 3px #8b8686;
+  -webkit-box-shadow: 0 1px 3px #8b8686;
+  -moz-box-shadow: 0 1px 3px #8b8686;
+}
+#notesButton {
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#notesButton:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px -42px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#notesButton.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px -42px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+  background-color: #bababa;
+}
+#notesButton.disabled {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: 0px -84px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+  cursor: default;
+}
+#notesWrapper {
+  display: none;
+  z-index: 15;
+  position: absolute;
+  top: 0;
+  left: 124px;
+}
+#notes {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  width: 600px;
+  padding-bottom: 10px;
+  background-color: #ccc;
+  color: #fff;
+  z-index: 15;
+  border-bottom: 1px solid #fff;
+}
+#notes #notesTitle,
+#notes #notesText {
+  width: 512px;
+  color: #000;
+}
+#notes #notesTitle {
+  font-size: 16px;
+  font-family: "ProximaNova-Bold";
+  margin: 0 0 0 20px;
+  padding: 15px 0;
+}
+#notes #notesText {
+  margin: 0 0 10px 50px;
+  line-height: 18px;
+  overflow-y: auto;
+  height: 300px;
+  padding-right: 15px;
+  width: 495px;
+}
+#notes #notesText p {
+  margin-bottom: 5px;
+}
+#notes #notesNav {
+  padding: 0 15px;
+  width: 568px;
+  text-align: center;
+}
+#notes #notesNav li {
+  margin-right: 5px;
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/nav-bullets.png');
+  width: 16px;
+  height: 16px;
+  background-position: -16px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+#notes #notesNav li.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/nav-bullets.png');
+  width: 16px;
+  height: 16px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  vertical-align: middle;
+}
+#notes #notesNextWrapper,
+#notes #notesPrevWrapper {
+  display: none;
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+}
+#notes #notesPrevWrapper {
+  left: 10px;
+}
+#notes #notesPrevWrapper #notesPrev {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/nav-arrows.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#notes #notesPrevWrapper #notesPrev:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/nav-arrows.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#notes #notesPrevWrapper #notesPrev.disabled {
+  background: none;
+  cursor: default;
+}
+#notes #notesPrevWrapper #notesPrev.disabled:hover {
+  background: none;
+}
+#notes #notesNextWrapper {
+  right: 10px;
+}
+#notes #notesNextWrapper #notesNext {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/nav-arrows.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px -22px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#notes #notesNextWrapper #notesNext:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/nav-arrows.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px -22px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#notes #notesNextWrapper #notesNext.disabled {
+  background: none;
+  cursor: default;
+}
+#notes #notesNextWrapper #notesNext.disabled:hover {
+  background: none;
+}
+#notes #notesClose {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/close-button.png');
+  width: 22px;
+  height: 22px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#notes #notesClose:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/close-button.png');
+  width: 22px;
+  height: 22px;
+  background-position: -22px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  vertical-align: middle;
+}
+#sliderWrapper {
+  display: none;
+  margin: 0 auto;
+  position: relative;
+}
+#sliderWrapper #sliderYears li {
+  display: inline-block;
+  width: 118px;
+  padding: 5px 0 30px;
+  text-align: center;
+  vertical-align: top;
+  color: #58585a;
+}
+#sliderWrapper #sliderYears li:hover,
+#sliderWrapper #sliderYears li.active {
+  color: #a7a8ac;
+}
+#sliderWrapper #slider {
+  width: 400px;
+  position: absolute;
+  background-color: #404041;
+  height: 9px;
+  top: 30px;
+}
+#sliderWrapper #handle {
+  position: relative;
+  width: 120px;
+  height: 9px;
+  cursor: pointer;
+}
+#sliderWrapper #handle #handleImg {
+  position: absolute;
+  top: -5px;
+  height: 18px;
+  width: 118px;
+  background: url('/Resources/core/img/slider-handle.png') 17px 0 no-repeat;
+}
+#sliderWrapper #handle:hover {
+  background-color: #ccc;
+}
+#sliderWrapper #handle:hover #handleImg {
+  background: url('/Resources/core/img/slider-handle.png') 17px -18px no-repeat;
+}
+#emailCityButton {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: -84px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#emailCityButton:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: -84px -42px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#emailCityButton.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: -84px -42px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+  background-color: #bababa;
+}
+#downloadButton {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: -42px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#downloadButton:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: -42px -42px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+}
+#downloadButton.active {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/graph-options-icons.png');
+  width: 42px;
+  height: 42px;
+  background-position: -42px -42px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  vertical-align: middle;
+  background-color: #bababa;
+}
+#downloadOptionsWrapper {
+  display: none;
+  z-index: 17;
+  position: absolute;
+  top: 0;
+  left: 169px;
+}
+#downloadOptions {
+  z-index: 17;
+  color: #333;
+  background: #ccc;
+  padding: 16px 10px 10px;
+  font-family: "ProximaNova-Bold";
+  font-size: 13px;
+  text-indent: 10px;
+}
+#downloadOptions li {
+  margin: 3px 23px 0 0;
+  cursor: pointer;
+  height: 27px;
+  white-space: nowrap;
+}
+#downloadOptions li a {
+  color: #333;
+}
+#downloadOptions li a:hover {
+  color: #000;
+}
+#downloadOptions li.subTitle {
+  font-family: "ProximaNova";
+  line-height: 30px;
+  font-size: 12px;
+  cursor: default;
+}
+#downloadOptions li:first-child {
+  font-family: "ProximaNova";
+  text-indent: 0;
+  margin: 0 0 5px 0px;
+  cursor: default;
+}
+#downloadOptions li:first-child:hover {
+  color: #333;
+}
+#downloadOptions li:hover {
+  color: #000;
+}
+#csvButton,
+#csvMultiButton,
+#pdfMultiButton {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}
+#csvButton:hover:before {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#csvButton:before {
+  margin-right: 15px;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#csvMultiButton:hover:before {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -52px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#csvMultiButton:before {
+  margin-right: 15px;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -52px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#pdfMultiButton:hover:before {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -78px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#pdfMultiButton:before {
+  margin-right: 15px;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -78px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#imgButton:hover:before {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px -26px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#imgButton:before {
+  margin-right: 15px;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -26px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#imgButton.disabled {
+  color: #666;
+  cursor: default;
+}
+#imgButton.disabled:before {
+  margin-right: 15px;
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/download-icons.png');
+  width: 26px;
+  height: 26px;
+  background-position: -52px -52px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 26px;
+  width: 26px;
+  vertical-align: middle;
+}
+#imgButton.disabled:hover {
+  color: #666;
+}
+#slideshowWrapper {
+  clear: both;
+  position: absolute;
+  top: 42px;
+  left: 0;
+  margin: 2%;
+  overflow: auto;
+  width: 96%;
+  height: 92%;
+}
+#slideshowWrapper #slideshow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#slideshowWrapper #slideshow #slide {
+  position: absolute;
+  top: 50px;
+  left: 5%;
+  width: 90%;
+  height: 85%;
+  text-align: center;
+  overflow: hidden;
+}
+#slideshowWrapper #slideshow #slide #slideImg {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  width: 90%;
+  height: 60%;
+}
+#slideshowWrapper #slideshow #slide #slideImg img {
+  max-width: 100%;
+  max-height: 100%;
+}
+#slideshowWrapper #slideshow #slide #slideText {
+  -webkit-touch-callout: text;
+  -webkit-user-select: text;
+  -khtml-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  width: 90%;
+  height: 35%;
+  font-size: 1em;
+}
+#slideshowWrapper #slideshow #slide #slideText p {
+  width: 760px;
+  text-align: left;
+  color: #e6e7e8;
+  margin: 20px auto;
+}
+#slideshowWrapper #slideshow ul#progressDots {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  width: 100%;
+  height: 10px;
+  text-align: center;
+}
+#slideshowWrapper #slideshow ul#progressDots li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 5px;
+  height: 10px;
+  width: 10px;
+  background-repeat: no-repeat;
+  background-image: url('/Resources/core/img/dot_inactive.png');
+}
+#slideshowWrapper #slideshow ul#progressDots li.active,
+#slideshowWrapper #slideshow ul#progressDots li:hover {
+  background-image: url('/Resources/core/img/dot_active.png');
+  cursor: pointer;
+}
+#slideshowWrapper #slideshow #goLeft,
+#slideshowWrapper #slideshow #goRight {
+  position: absolute;
+  top: 40%;
+  width: 20px;
+  height: 30px;
+  font-size: 3em;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+#slideshowWrapper #slideshow #goLeft.disabled,
+#slideshowWrapper #slideshow #goRight.disabled {
+  display: none;
+}
+#slideshowWrapper #slideshow #goLeft {
+  left: 0px;
+  background-image: url('/Resources/core/img/prev_inact.png');
+}
+#slideshowWrapper #slideshow #goLeft:hover {
+  background-image: url('/Resources/core/img/prev_act.png');
+}
+#slideshowWrapper #slideshow #goRight {
+  right: 0px;
+  background-image: url('/Resources/core/img/next_inact.png');
+}
+#slideshowWrapper #slideshow #goRight:hover {
+  background-image: url('/Resources/core/img/next_act.png');
+}
+.css-arrow-left {
+  border-color: transparent #000 transparent transparent;
+  border-style: solid;
+  border-width: 10px 20px 10px 0;
+  height: 0;
+  margin: 10px 0;
+  width: 0;
+  z-index: 12;
+}
+.css-arrow-down {
+  border-color: #333 transparent transparent;
+  border-style: solid;
+  border-width: 5px 5px 0;
+  height: 0;
+  margin: 0 5px;
+  width: 0;
+  z-index: 12;
+}
+.css-arrow-up {
+  border-color: #333 transparent transparent;
+  border-style: solid;
+  border-width: 0 10px 10px;
+  height: 0;
+  margin: 0 10px;
+  width: 0;
+  z-index: 12;
+}
+.css-arrow-right {
+  border-color: transparent transparent transparent #000;
+  border-style: solid;
+  border-width: 10px 0 10px 20px;
+  height: 0;
+  margin: 10px 0;
+  width: 0;
+  z-index: 12;
+}
+.tooltip {
+  background: #333;
+  border-radius: 5px;
+  color: #fff;
+  max-width: 250px;
+  padding: 10px;
+  line-height: 14px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+  z-index: 12;
+  font-size: 12px;
+}
+.tooltip a {
+  color: #fff;
+}
+/*
+.tooltip div.close {
+	background: url(tooltip-close.png) no-repeat;
+	border: 1px solid #000;
+	float: right;
+	height: 6px;
+	margin-left: 5px;
+	width: 7px;
+}
+*/
+.tooltip div.close:hover {
+  border-style: outset;
+}
+#overlay {
+  position: absolute;
+  left: 1;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #000;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+#errorPage {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+}
+#errorPage h1 {
+  margin: 15px 0;
+  font-size: 32px;
+  font-family: "ProximaNova-Bold";
+}
+#errorPage p {
+  font-size: 16px;
+  line-height: 24px;
+}
+#errorPage p a,
+#errorPage p a:active,
+#errorPage p a:visited {
+  color: #00ccff;
+  text-decoration: underline;
+}
+#errorPage ul {
+  margin: 0 auto;
+  width: 400px;
+}
+#errorPage ul li {
+  float: left;
+  font-size: 11px;
+  cursor: pointer;
+  color: #ccc;
+  height: 100px;
+  width: 100px;
+}
+#errorPage ul li a,
+#errorPage ul li a:active,
+#errorPage ul li a:visited {
+  padding-top: 85px;
+  display: block;
+  color: #ccc;
+}
+#errorPage ul li#safari {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: 0px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+#errorPage ul li#safari:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: 0px -100px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+#errorPage ul li#firefox {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: -100px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+#errorPage ul li#firefox:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: -100px -100px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+#errorPage ul li#chrome {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: -200px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+#errorPage ul li#chrome:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: -200px -100px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+#errorPage ul li#ie {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: -300px 0px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+#errorPage ul li#ie:hover {
+  display: block;
+  display: inline-block;
+  background-image: url('/Resources/core/img/browser-icons.png');
+  width: 100px;
+  height: 100px;
+  background-position: -300px -100px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+
+/*ADRIAN ADDED
+styling for search box. probably not all necessary*/
+#dropdowns .dropdown .dropItem .searchButton {
+  display: block;
+  display: inline-block;
+ /* background-image: url('/Resources/core/img/magnifyingglasssmall.png');*/
+  width: 18px;
+  height: 18px;
+  content: '';
+  display: block;
+  display: inline-block;
+  height: 18px;
+  width: 18px;
+  vertical-align: middle;
+}
+
+#dropdowns .dropdown .dropItem .searchBox {
+  display: inline-block;
+  height: 18px;
+  width: 120px;
+}
+
+#dropdowns .dropdown .dropItem .searchLabel {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}

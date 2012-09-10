@@ -1,0 +1,3559 @@
+{
+    "divisions": {
+        "Administrative Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Bank Charges", 
+                "Expense:Capital Outlay", 
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Communication Lines", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Disposal And Recycling", 
+                "Expense:General Training", 
+                "Expense:Maintenance Service", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Specialized Training", 
+                "Expense:System Change Orders", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Tuition Refunds", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Administrative Services:Administration": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Career Development Program", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Administrative Services:Business License": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Capital Outlay", 
+                "Expense:Cell Phone", 
+                "Expense:Copier Cost", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Administrative Services:Disability Loss Management": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Copier Cost", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Administrative Services:General Accounting": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bank Charges", 
+                "Expense:Capital Outlay", 
+                "Expense:Career Development Program", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Administrative Services:General Personnel": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Career Development Program", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Tuition Refunds"
+            ]
+        }, 
+        "Administrative Services:Information Technology": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Disposal And Recycling", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Specialized Training", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Administrative Services:Recruitment": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Career Development Program", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Administrative Services:Risk Management": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Administrative Services:Telecommunications": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Communication Lines", 
+                "Expense:Contractual Services", 
+                "Expense:Maintenance Service", 
+                "Expense:Office Supplies", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:System Change Orders", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Arts Recreation and Community Services": {
+            "funds": [
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Enterprise Funds:Clubhouse"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Bank Charges", 
+                "Expense:Capital Outlay", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Commissions", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Concession Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Custodial Supplies", 
+                "Expense:Development Expenses", 
+                "Expense:Education Programs Expense", 
+                "Expense:Event Services & Supplies", 
+                "Expense:General Training", 
+                "Expense:Improvements", 
+                "Expense:Management Training", 
+                "Expense:Mech & Tech Equip Rep", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Outside Reprographics", 
+                "Expense:Photography", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Scholarships", 
+                "Expense:Shellie Awards", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Administration": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Cell Phone", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Aquatics and Special Events": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bank Charges", 
+                "Expense:Capital Outlay", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Scholarships", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Arts Education": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Software", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Custodial Supplies", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Arts Education Programs": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Bank Charges", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Custodial Services", 
+                "Expense:Custodial Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Photography", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Utilities"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Bedford Gallery": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Bank Charges", 
+                "Expense:Cell Phone", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Improvements", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Center REPertory Theatre Company": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Commissions", 
+                "Expense:Computer Software", 
+                "Expense:Concession Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Development Expenses", 
+                "Expense:Education Programs Expense", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Golf Clubhouse": {
+            "funds": [
+                "Enterprise Funds:Clubhouse"
+            ], 
+            "ledgers": [
+                "Expense:Capital Outlay", 
+                "Expense:Improvements", 
+                "Expense:Salaries and Benefits"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Golf Course": {
+            "funds": [
+                "Enterprise Funds:Golf Course"
+            ], 
+            "ledgers": [
+                "Expense:Capital Outlay", 
+                "Expense:Improvements", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Lesher Center for the Arts": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Bank Charges", 
+                "Expense:Capital Outlay", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Custodial Services", 
+                "Expense:Custodial Supplies", 
+                "Expense:Event Services & Supplies", 
+                "Expense:Management Training", 
+                "Expense:Mech & Tech Equip Rep", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Shellie Awards", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Municipal Special Events": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Recreation Classes and Camps": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Bank Charges", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Supplies", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Scholarships", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Recreation Facilities": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Bank Charges", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Custodial Supplies", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Outside Reprographics", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Social Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bank Charges", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Scholarships", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Arts Recreation and Community Services:Sports and Teens": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bank Charges", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Scholarships", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Community Development": {
+            "funds": [
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Social Service Program", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Bank Charges", 
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Computer Software", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Equipment Maintenance", 
+                "Expense:General Training", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Rda Idt", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Community Development:Administration": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Equipment Maintenance", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Rda Idt", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Allowance"
+            ]
+        }, 
+        "Community Development:Administrative": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bank Charges", 
+                "Expense:Contractual Services", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Utilities"
+            ]
+        }, 
+        "Community Development:Building": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Community Development:Housing": {
+            "funds": [
+                "Special Revenue Funds:Affordable Housing"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Social Service Program", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Community Development:Planning": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Cell Phone", 
+                "Expense:Contractual Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Community Development:Transportation Planning": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "General Government": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Capital Outlay", 
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Community Outreach", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Election Related Expenses", 
+                "Expense:Law Books And Updates", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Non-Departmental", 
+                "Expense:Office Supplies", 
+                "Expense:Other Expenses", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Special Events", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance"
+            ]
+        }, 
+        "General Government:Administration": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Contractual Services", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses"
+            ]
+        }, 
+        "General Government:City Attorney": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Law Books And Updates", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance"
+            ]
+        }, 
+        "General Government:City Clerk": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Capital Outlay", 
+                "Expense:Career Development Program", 
+                "Expense:Contractual Services", 
+                "Expense:Election Related Expenses", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Special Events", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "General Government:City Council": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Community Outreach", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Other Expenses", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Rent/Lease", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance"
+            ]
+        }, 
+        "General Government:City Manager": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Career Development Program", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Office Supplies", 
+                "Expense:Other Expenses", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance"
+            ]
+        }, 
+        "General Government:City Treasurer": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Postage", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "General Government:Community Outreach": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Events", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "General Government:Economic Development": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Management Training", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses"
+            ]
+        }, 
+        "General Government:Interagency Relations": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "General Government:Mail": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Postage", 
+                "Expense:Rent/Lease", 
+                "Expense:Telephone"
+            ]
+        }, 
+        "General Government:Non-Departmental": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Non-Departmental"
+            ]
+        }, 
+        "Police": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Ammunition And Firearms", 
+                "Expense:Bomb Team", 
+                "Expense:Canine Program", 
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Character Counts", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Other Expenses", 
+                "Expense:Outside Reprographics", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Police Radio", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Safety Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Swat Team", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Police:Administration": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Police:Animal Control": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Contractual Services"
+            ]
+        }, 
+        "Police:Budget Research and Equipment": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Ammunition And Firearms", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Custodial Services", 
+                "Expense:General Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Safety Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Utilities"
+            ]
+        }, 
+        "Police:Communications": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Police Radio", 
+                "Expense:Rent/Lease", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Police:Community Policing": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Character Counts", 
+                "Expense:Other Expenses", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Police:Investigations": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Contractual Services", 
+                "Expense:Other Expenses", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Police:Parking": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Police:Patrol": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bomb Team", 
+                "Expense:Canine Program", 
+                "Expense:Cell Phone", 
+                "Expense:Contractual Services", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Swat Team", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Police:Records": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Contractual Services", 
+                "Expense:Copier Cost", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Other Expenses", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Police:SLESF": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Salaries and Benefits"
+            ]
+        }, 
+        "Police:Traffic": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services": {
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ], 
+            "ledgers": [
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement", 
+                "Expense:Cell Phone", 
+                "Expense:Clean Water Expenses", 
+                "Expense:Community Outreach", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Services From Other Departments", 
+                "Expense:Bank Charges", 
+                "Expense:Capital Outlay", 
+                "Expense:Career Development Program", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Custodial Services", 
+                "Expense:Disposal And Recycling", 
+                "Expense:Engineering Idt", 
+                "Expense:Equipment Maintenance", 
+                "Expense:Fuels And Lubricants", 
+                "Expense:General Training", 
+                "Expense:Misc Shop Supplies", 
+                "Expense:Npdes Idt", 
+                "Expense:Postage", 
+                "Expense:Safety Supplies", 
+                "Expense:Shop Equipment And Repair", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Tires", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Welding & Acetylene", 
+                "Expense:Cip Project Expenses"
+            ]
+        }, 
+        "Public Services:Administration": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Custodial Services", 
+                "Expense:Engineering Idt", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Npdes Idt", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance"
+            ]
+        }, 
+        "Public Services:Building Maintenance": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Capital Outlay", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Capital Investment Program": {
+            "funds": [
+                "Capital Project Fund:Capital Investment Program"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Cip Project Expenses", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Services From Other Departments", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Clean Water": {
+            "funds": [
+                "Special Revenue Funds:NPDES"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clean Water Expenses", 
+                "Expense:Community Outreach", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Services From Other Departments", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Custodial": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Custodial Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Engineering": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bank Charges", 
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Custodial Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Services From Other Departments", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Equipment Maintenance": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Disposal And Recycling", 
+                "Expense:Equipment Maintenance", 
+                "Expense:Fuels And Lubricants", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Misc Shop Supplies", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Shop Equipment And Repair", 
+                "Expense:Small Tools", 
+                "Expense:Telephone", 
+                "Expense:Tires", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement", 
+                "Expense:Welding & Acetylene"
+            ]
+        }, 
+        "Public Services:Garages / Leased Properties": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Bank Charges", 
+                "Expense:Contractual Services", 
+                "Expense:Operating Equipment", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Utilities"
+            ]
+        }, 
+        "Public Services:Graffiti Removal": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:General Training", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Safety Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Museums": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Contributions To Other Agencies"
+            ]
+        }, 
+        "Public Services:Open Space": {
+            "funds": [
+                "Special Revenue Funds:Open Space"
+            ], 
+            "ledgers": [
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement", 
+                "Expense:Cell Phone"
+            ]
+        }, 
+        "Public Services:Parks": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Custodial Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Safety Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Street Maintenance": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Street Sweeping": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Npdes Idt", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Traffic Signals and Streetlights": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Traffic Signs Marking and Parking Meters": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Transportation Operations": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Services From Other Departments", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Public Services:Urban Forestry": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Safety Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }
+    }, 
+    "funds": {
+        "Capital Project Fund": {
+            "divisions": [
+                "Public Services:Capital Investment Program"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Cip Project Expenses", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Services From Other Departments", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Capital Project Fund:Capital Investment Program": {
+            "divisions": [
+                "Public Services:Capital Investment Program"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Cip Project Expenses", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:General Training", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Services From Other Departments", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Enterprise Funds": {
+            "divisions": [
+                "Arts Recreation and Community Services:Golf Course", 
+                "Arts Recreation and Community Services:Golf Clubhouse"
+            ], 
+            "ledgers": [
+                "Expense:Capital Outlay", 
+                "Expense:Improvements", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Enterprise Funds:Clubhouse": {
+            "divisions": [
+                "Arts Recreation and Community Services:Golf Clubhouse"
+            ], 
+            "ledgers": [
+                "Expense:Capital Outlay", 
+                "Expense:Improvements", 
+                "Expense:Salaries and Benefits"
+            ]
+        }, 
+        "Enterprise Funds:Golf Course": {
+            "divisions": [
+                "Arts Recreation and Community Services:Golf Course"
+            ], 
+            "ledgers": [
+                "Expense:Capital Outlay", 
+                "Expense:Improvements", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Outside Reprographics", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "General Funds": {
+            "divisions": [
+                "Administrative Services:General Personnel", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:City Clerk", 
+                "Police:Budget Research and Equipment", 
+                "Administrative Services:General Accounting", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "Public Services:Engineering", 
+                "Public Services:Garages / Leased Properties", 
+                "Police:Patrol", 
+                "Administrative Services:Business License", 
+                "Public Services:Building Maintenance", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Recruitment", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Manager", 
+                "Police:Administration", 
+                "Public Services:Administration", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Community Development:Building", 
+                "General Government:Community Outreach", 
+                "Police:Communications", 
+                "Public Services:Custodial", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Police:Community Policing", 
+                "Police:Parking", 
+                "Police:Traffic", 
+                "General Government:City Council", 
+                "Administrative Services:Risk Management", 
+                "General Government:Administration", 
+                "Police:Animal Control", 
+                "Police:Investigations", 
+                "Police:Records", 
+                "Public Services:Museums", 
+                "Administrative Services:Disability Loss Management", 
+                "General Government:Economic Development", 
+                "General Government:City Treasurer", 
+                "General Government:Interagency Relations", 
+                "General Government:Non-Departmental", 
+                "Police:SLESF", 
+                "General Government:Mail"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Ammunition And Firearms", 
+                "Expense:Bank Charges", 
+                "Expense:Bomb Team", 
+                "Expense:Canine Program", 
+                "Expense:Capital Outlay", 
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Character Counts", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Commissions", 
+                "Expense:Communication Lines", 
+                "Expense:Community Outreach", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Concession Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Custodial Supplies", 
+                "Expense:Development Expenses", 
+                "Expense:Disposal And Recycling", 
+                "Expense:Education Programs Expense", 
+                "Expense:Election Related Expenses", 
+                "Expense:Engineering Idt", 
+                "Expense:Equipment Maintenance", 
+                "Expense:Event Services & Supplies", 
+                "Expense:Fuels And Lubricants", 
+                "Expense:General Training", 
+                "Expense:Improvements", 
+                "Expense:Law Books And Updates", 
+                "Expense:Maintenance Service", 
+                "Expense:Management Training", 
+                "Expense:Mech & Tech Equip Rep", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Misc Shop Supplies", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Non-Departmental", 
+                "Expense:Npdes Idt", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Other Expenses", 
+                "Expense:Outside Reprographics", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Photography", 
+                "Expense:Police Radio", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rda Idt", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Safety Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Scholarships", 
+                "Expense:Services From Other Departments", 
+                "Expense:Shellie Awards", 
+                "Expense:Shop Equipment And Repair", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Special Events", 
+                "Expense:Specialized Training", 
+                "Expense:Swat Team", 
+                "Expense:System Change Orders", 
+                "Expense:Telephone", 
+                "Expense:Tires", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Tuition Refunds", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement", 
+                "Expense:Welding & Acetylene"
+            ]
+        }, 
+        "General Funds:General Fund": {
+            "divisions": [
+                "Administrative Services:General Personnel", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:City Clerk", 
+                "Police:Budget Research and Equipment", 
+                "Administrative Services:General Accounting", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "Public Services:Engineering", 
+                "Public Services:Garages / Leased Properties", 
+                "Police:Patrol", 
+                "Administrative Services:Business License", 
+                "Public Services:Building Maintenance", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Recruitment", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Manager", 
+                "Police:Administration", 
+                "Public Services:Administration", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Community Development:Building", 
+                "General Government:Community Outreach", 
+                "Police:Communications", 
+                "Public Services:Custodial", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Police:Community Policing", 
+                "Police:Parking", 
+                "Police:Traffic", 
+                "General Government:City Council", 
+                "Administrative Services:Risk Management", 
+                "General Government:Administration", 
+                "Police:Animal Control", 
+                "Police:Investigations", 
+                "Police:Records", 
+                "Public Services:Museums", 
+                "Administrative Services:Disability Loss Management", 
+                "General Government:Economic Development", 
+                "General Government:City Treasurer", 
+                "General Government:Interagency Relations", 
+                "General Government:Non-Departmental", 
+                "Police:SLESF", 
+                "General Government:Mail"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Ammunition And Firearms", 
+                "Expense:Bank Charges", 
+                "Expense:Bomb Team", 
+                "Expense:Canine Program", 
+                "Expense:Capital Outlay", 
+                "Expense:Career Development Program", 
+                "Expense:Cell Phone", 
+                "Expense:Character Counts", 
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Commissions", 
+                "Expense:Communication Lines", 
+                "Expense:Community Outreach", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Concession Supplies", 
+                "Expense:Contractual Services", 
+                "Expense:Contributions To Other Agencies", 
+                "Expense:Copier Cost", 
+                "Expense:Custodial Services", 
+                "Expense:Custodial Supplies", 
+                "Expense:Development Expenses", 
+                "Expense:Disposal And Recycling", 
+                "Expense:Education Programs Expense", 
+                "Expense:Election Related Expenses", 
+                "Expense:Engineering Idt", 
+                "Expense:Equipment Maintenance", 
+                "Expense:Event Services & Supplies", 
+                "Expense:Fuels And Lubricants", 
+                "Expense:General Training", 
+                "Expense:Improvements", 
+                "Expense:Law Books And Updates", 
+                "Expense:Maintenance Service", 
+                "Expense:Management Training", 
+                "Expense:Mech & Tech Equip Rep", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Misc Shop Supplies", 
+                "Expense:Miscellaneous Expenses", 
+                "Expense:Non-Departmental", 
+                "Expense:Npdes Idt", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Other Expenses", 
+                "Expense:Outside Reprographics", 
+                "Expense:Pers Safety Side Fund Pymts", 
+                "Expense:Photography", 
+                "Expense:Police Radio", 
+                "Expense:Postage", 
+                "Expense:Professional Services", 
+                "Expense:Rda Idt", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Safety Supplies", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Scholarships", 
+                "Expense:Services From Other Departments", 
+                "Expense:Shellie Awards", 
+                "Expense:Shop Equipment And Repair", 
+                "Expense:Small Tools", 
+                "Expense:Special Dept Expenses", 
+                "Expense:Special Events", 
+                "Expense:Specialized Training", 
+                "Expense:Swat Team", 
+                "Expense:System Change Orders", 
+                "Expense:Telephone", 
+                "Expense:Tires", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Tuition Refunds", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Allowance", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement", 
+                "Expense:Welding & Acetylene"
+            ]
+        }, 
+        "Special Revenue Funds": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Community Development:Housing"
+            ], 
+            "ledgers": [
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement", 
+                "Expense:Cell Phone", 
+                "Expense:Clean Water Expenses", 
+                "Expense:Community Outreach", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Services From Other Departments", 
+                "Expense:Advertising", 
+                "Expense:Social Service Program"
+            ]
+        }, 
+        "Special Revenue Funds:Affordable Housing": {
+            "divisions": [
+                "Community Development:Housing"
+            ], 
+            "ledgers": [
+                "Expense:Advertising", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Professional Services", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Social Service Program", 
+                "Expense:Travel/Conferences/Meetings"
+            ]
+        }, 
+        "Special Revenue Funds:NPDES": {
+            "divisions": [
+                "Public Services:Clean Water"
+            ], 
+            "ledgers": [
+                "Expense:Cell Phone", 
+                "Expense:Clean Water Expenses", 
+                "Expense:Community Outreach", 
+                "Expense:Computer Equipment & Supplies", 
+                "Expense:Computer Software", 
+                "Expense:Contractual Services", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Services From Other Departments", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement"
+            ]
+        }, 
+        "Special Revenue Funds:Open Space": {
+            "divisions": [
+                "Public Services:Open Space"
+            ], 
+            "ledgers": [
+                "Expense:Clothing & Personal Expenses", 
+                "Expense:Contractual Services", 
+                "Expense:Management Training", 
+                "Expense:Memberships/Subscriptions", 
+                "Expense:Office Supplies", 
+                "Expense:Operating Equipment", 
+                "Expense:Outside Reprographics", 
+                "Expense:Professional Services", 
+                "Expense:Rent/Lease", 
+                "Expense:Repair & Maintenance", 
+                "Expense:Salaries and Benefits", 
+                "Expense:Small Tools", 
+                "Expense:Telephone", 
+                "Expense:Travel/Conferences/Meetings", 
+                "Expense:Utilities", 
+                "Expense:Vehicle Maintenance", 
+                "Expense:Vehicle Replacement", 
+                "Expense:Cell Phone"
+            ]
+        }
+    }, 
+    "ledgers": {
+        "Expense": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Community Development:Housing", 
+                "Administrative Services:General Personnel", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:City Clerk", 
+                "Police:Budget Research and Equipment", 
+                "Administrative Services:General Accounting", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "Public Services:Engineering", 
+                "Public Services:Garages / Leased Properties", 
+                "Police:Patrol", 
+                "Administrative Services:Business License", 
+                "Public Services:Building Maintenance", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Recruitment", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Manager", 
+                "Police:Administration", 
+                "Public Services:Administration", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Community Development:Building", 
+                "General Government:Community Outreach", 
+                "Police:Communications", 
+                "Public Services:Custodial", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Police:Community Policing", 
+                "Police:Parking", 
+                "Police:Traffic", 
+                "General Government:City Council", 
+                "Administrative Services:Risk Management", 
+                "General Government:Administration", 
+                "Police:Animal Control", 
+                "Police:Investigations", 
+                "Police:Records", 
+                "Public Services:Museums", 
+                "Administrative Services:Disability Loss Management", 
+                "General Government:Economic Development", 
+                "General Government:City Treasurer", 
+                "General Government:Interagency Relations", 
+                "General Government:Non-Departmental", 
+                "Police:SLESF", 
+                "General Government:Mail", 
+                "Arts Recreation and Community Services:Golf Course", 
+                "Arts Recreation and Community Services:Golf Clubhouse", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Enterprise Funds:Clubhouse", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Advertising": {
+            "divisions": [
+                "Community Development:Housing", 
+                "Administrative Services:General Personnel", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:City Clerk"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Ammunition And Firearms": {
+            "divisions": [
+                "Police:Budget Research and Equipment"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Bank Charges": {
+            "divisions": [
+                "Administrative Services:General Accounting", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "Public Services:Engineering", 
+                "Public Services:Garages / Leased Properties"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Bomb Team": {
+            "divisions": [
+                "Police:Patrol"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Canine Program": {
+            "divisions": [
+                "Police:Patrol"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Capital Outlay": {
+            "divisions": [
+                "Administrative Services:Business License", 
+                "Administrative Services:General Accounting", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "General Government:City Clerk", 
+                "Public Services:Building Maintenance", 
+                "Arts Recreation and Community Services:Golf Course", 
+                "Arts Recreation and Community Services:Golf Clubhouse"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Enterprise Funds:Clubhouse"
+            ]
+        }, 
+        "Expense:Career Development Program": {
+            "divisions": [
+                "Administrative Services:Administration", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Recruitment", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Manager", 
+                "Police:Administration", 
+                "Public Services:Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Cell Phone": {
+            "divisions": [
+                "Public Services:Clean Water", 
+                "Administrative Services:Business License", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "General Government:City Attorney", 
+                "General Government:Community Outreach", 
+                "Police:Administration", 
+                "Police:Communications", 
+                "Police:Patrol", 
+                "Public Services:Administration", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Public Services:Capital Investment Program", 
+                "Public Services:Open Space"
+            ], 
+            "funds": [
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program", 
+                "Special Revenue Funds:Open Space"
+            ]
+        }, 
+        "Expense:Character Counts": {
+            "divisions": [
+                "Police:Community Policing"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Cip Project Expenses": {
+            "divisions": [
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Clean Water Expenses": {
+            "divisions": [
+                "Public Services:Clean Water"
+            ], 
+            "funds": [
+                "Special Revenue Funds:NPDES"
+            ]
+        }, 
+        "Expense:Clothing & Personal Expenses": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Police:Administration", 
+                "Police:Budget Research and Equipment", 
+                "Police:Communications", 
+                "Police:Parking", 
+                "Police:Traffic", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Commissions": {
+            "divisions": [
+                "Arts Recreation and Community Services:Center REPertory Theatre Company"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Communication Lines": {
+            "divisions": [
+                "Administrative Services:Telecommunications"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Community Outreach": {
+            "divisions": [
+                "Public Services:Clean Water", 
+                "General Government:City Council"
+            ], 
+            "funds": [
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Computer Equipment & Supplies": {
+            "divisions": [
+                "Public Services:Clean Water", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:Information Technology", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "General Government:City Manager", 
+                "Public Services:Administration", 
+                "Public Services:Engineering", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Computer Software": {
+            "divisions": [
+                "Public Services:Clean Water", 
+                "Administrative Services:Information Technology", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Community Development:Administration", 
+                "Community Development:Building", 
+                "Public Services:Administration", 
+                "Public Services:Engineering", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Concession Supplies": {
+            "divisions": [
+                "Arts Recreation and Community Services:Center REPertory Theatre Company"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Contractual Services": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Community Development:Housing", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Community Development:Planning", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "Community Development:Administrative", 
+                "Community Development:Building", 
+                "Community Development:Transportation Planning", 
+                "General Government:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "Police:Animal Control", 
+                "Police:Budget Research and Equipment", 
+                "Police:Communications", 
+                "Police:Investigations", 
+                "Police:Patrol", 
+                "Police:Records", 
+                "Police:Traffic", 
+                "Public Services:Administration", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Garages / Leased Properties", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Contributions To Other Agencies": {
+            "divisions": [
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Community Development:Transportation Planning", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "Police:Budget Research and Equipment", 
+                "Public Services:Museums"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Copier Cost": {
+            "divisions": [
+                "Administrative Services:Administration", 
+                "Administrative Services:Business License", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "Police:Records"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Custodial Services": {
+            "divisions": [
+                "Public Services:Custodial", 
+                "Administrative Services:Administration", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "Police:Budget Research and Equipment", 
+                "Public Services:Administration", 
+                "Public Services:Engineering", 
+                "Public Services:Parks"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Custodial Supplies": {
+            "divisions": [
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Development Expenses": {
+            "divisions": [
+                "Arts Recreation and Community Services:Center REPertory Theatre Company"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Disposal And Recycling": {
+            "divisions": [
+                "Administrative Services:Information Technology", 
+                "Public Services:Equipment Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Education Programs Expense": {
+            "divisions": [
+                "Arts Recreation and Community Services:Center REPertory Theatre Company"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Election Related Expenses": {
+            "divisions": [
+                "General Government:City Clerk"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Engineering Idt": {
+            "divisions": [
+                "Public Services:Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Equipment Maintenance": {
+            "divisions": [
+                "Community Development:Administration", 
+                "Public Services:Equipment Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Event Services & Supplies": {
+            "divisions": [
+                "Arts Recreation and Community Services:Lesher Center for the Arts"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Fuels And Lubricants": {
+            "divisions": [
+                "Public Services:Equipment Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:General Training": {
+            "divisions": [
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Personnel", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Community Development:Administration", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "Police:Budget Research and Equipment", 
+                "Public Services:Administration", 
+                "Public Services:Engineering", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Improvements": {
+            "divisions": [
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Golf Course", 
+                "Arts Recreation and Community Services:Golf Clubhouse"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Enterprise Funds:Clubhouse"
+            ]
+        }, 
+        "Expense:Law Books And Updates": {
+            "divisions": [
+                "General Government:City Attorney"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Maintenance Service": {
+            "divisions": [
+                "Administrative Services:Telecommunications"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Management Training": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Community Development:Housing", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Risk Management", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Manager", 
+                "General Government:Community Outreach", 
+                "General Government:Economic Development", 
+                "Police:Administration", 
+                "Public Services:Administration", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Mech & Tech Equip Rep": {
+            "divisions": [
+                "Arts Recreation and Community Services:Lesher Center for the Arts"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Memberships/Subscriptions": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Community Development:Housing", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Business License", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "General Government:City Treasurer", 
+                "General Government:Community Outreach", 
+                "General Government:Interagency Relations", 
+                "Police:Administration", 
+                "Police:Budget Research and Equipment", 
+                "Police:Communications", 
+                "Police:Records", 
+                "Public Services:Administration", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Arts Recreation and Community Services:Golf Course", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Misc Shop Supplies": {
+            "divisions": [
+                "Public Services:Equipment Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Miscellaneous Expenses": {
+            "divisions": [
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "General Government:City Manager"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Non-Departmental": {
+            "divisions": [
+                "General Government:Non-Departmental"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Npdes Idt": {
+            "divisions": [
+                "Public Services:Administration", 
+                "Public Services:Street Sweeping"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Office Supplies": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Business License", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "General Government:City Treasurer", 
+                "General Government:Community Outreach", 
+                "General Government:Interagency Relations", 
+                "Police:Records", 
+                "Public Services:Administration", 
+                "Arts Recreation and Community Services:Golf Course"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course"
+            ]
+        }, 
+        "Expense:Operating Equipment": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Public Services:Garages / Leased Properties"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Other Expenses": {
+            "divisions": [
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "Police:Community Policing", 
+                "Police:Investigations", 
+                "Police:Records"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Outside Reprographics": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "Community Development:Administrative", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "General Government:Community Outreach", 
+                "General Government:Interagency Relations", 
+                "Police:Records", 
+                "Public Services:Administration", 
+                "Public Services:Transportation Operations", 
+                "Arts Recreation and Community Services:Golf Course"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course"
+            ]
+        }, 
+        "Expense:Pers Safety Side Fund Pymts": {
+            "divisions": [
+                "Police:Administration", 
+                "Police:Community Policing", 
+                "Police:Investigations", 
+                "Police:Patrol", 
+                "Police:SLESF", 
+                "Police:Traffic"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Photography": {
+            "divisions": [
+                "Arts Recreation and Community Services:Arts Education Programs"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Police Radio": {
+            "divisions": [
+                "Police:Communications"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Postage": {
+            "divisions": [
+                "Administrative Services:Administration", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Risk Management", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "General Government:City Treasurer", 
+                "General Government:Mail", 
+                "Police:Records", 
+                "Public Services:Administration", 
+                "Public Services:Transportation Operations", 
+                "Arts Recreation and Community Services:Golf Course"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course"
+            ]
+        }, 
+        "Expense:Professional Services": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Community Development:Housing", 
+                "Administrative Services:Business License", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Manager", 
+                "General Government:Economic Development", 
+                "Police:Records", 
+                "Public Services:Engineering", 
+                "Public Services:Parks", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Arts Recreation and Community Services:Golf Course", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Rda Idt": {
+            "divisions": [
+                "Community Development:Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Rent/Lease": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "General Government:City Council", 
+                "General Government:Mail", 
+                "Police:Communications", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Urban Forestry", 
+                "Arts Recreation and Community Services:Golf Course"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course"
+            ]
+        }, 
+        "Expense:Repair & Maintenance": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Building", 
+                "Police:Budget Research and Equipment", 
+                "Public Services:Administration", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Garages / Leased Properties", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Safety Supplies": {
+            "divisions": [
+                "Police:Budget Research and Equipment", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Urban Forestry"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Salaries and Benefits": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Community Development:Housing", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Business License", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "General Government:City Treasurer", 
+                "General Government:Community Outreach", 
+                "General Government:Economic Development", 
+                "Police:Administration", 
+                "Police:Budget Research and Equipment", 
+                "Police:Communications", 
+                "Police:Community Policing", 
+                "Police:Investigations", 
+                "Police:Parking", 
+                "Police:Patrol", 
+                "Police:Records", 
+                "Police:SLESF", 
+                "Police:Traffic", 
+                "Public Services:Administration", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Arts Recreation and Community Services:Golf Course", 
+                "Arts Recreation and Community Services:Golf Clubhouse", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Enterprise Funds:Clubhouse", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Scholarships": {
+            "divisions": [
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Services From Other Departments": {
+            "divisions": [
+                "Public Services:Clean Water", 
+                "Public Services:Engineering", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Shellie Awards": {
+            "divisions": [
+                "Arts Recreation and Community Services:Lesher Center for the Arts"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Shop Equipment And Repair": {
+            "divisions": [
+                "Public Services:Equipment Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Small Tools": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Police:Communications", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Urban Forestry"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Social Service Program": {
+            "divisions": [
+                "Community Development:Housing"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Affordable Housing"
+            ]
+        }, 
+        "Expense:Special Dept Expenses": {
+            "divisions": [
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Municipal Special Events", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "General Government:Administration", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "General Government:Economic Development", 
+                "Police:Administration", 
+                "Police:Budget Research and Equipment", 
+                "Police:Communications", 
+                "Police:Community Policing", 
+                "Police:Investigations", 
+                "Police:Parking", 
+                "Police:Patrol", 
+                "Police:Records", 
+                "Police:Traffic", 
+                "Public Services:Parks", 
+                "Arts Recreation and Community Services:Golf Course"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course"
+            ]
+        }, 
+        "Expense:Special Events": {
+            "divisions": [
+                "General Government:City Clerk", 
+                "General Government:Community Outreach"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Specialized Training": {
+            "divisions": [
+                "Administrative Services:Information Technology"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Swat Team": {
+            "divisions": [
+                "Police:Patrol"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:System Change Orders": {
+            "divisions": [
+                "Administrative Services:Telecommunications"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Telephone": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Manager", 
+                "General Government:Mail", 
+                "Police:Communications", 
+                "Public Services:Administration", 
+                "Public Services:Custodial", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Parks", 
+                "Public Services:Traffic Signals and Streetlights"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Tires": {
+            "divisions": [
+                "Public Services:Equipment Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Travel/Conferences/Meetings": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Community Development:Housing", 
+                "Administrative Services:Administration", 
+                "Administrative Services:Business License", 
+                "Administrative Services:Disability Loss Management", 
+                "Administrative Services:General Accounting", 
+                "Administrative Services:General Personnel", 
+                "Administrative Services:Information Technology", 
+                "Administrative Services:Recruitment", 
+                "Administrative Services:Risk Management", 
+                "Administrative Services:Telecommunications", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administration", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "Community Development:Transportation Planning", 
+                "General Government:City Attorney", 
+                "General Government:City Clerk", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "General Government:City Treasurer", 
+                "General Government:Community Outreach", 
+                "General Government:Interagency Relations", 
+                "Police:Administration", 
+                "Police:Communications", 
+                "Police:Community Policing", 
+                "Police:Patrol", 
+                "Police:Records", 
+                "Public Services:Administration", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Arts Recreation and Community Services:Golf Course", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "Special Revenue Funds:Affordable Housing", 
+                "General Funds:General Fund", 
+                "Enterprise Funds:Golf Course", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Tuition Refunds": {
+            "divisions": [
+                "Administrative Services:General Personnel"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Utilities": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Administrative Services:Administration", 
+                "Arts Recreation and Community Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education Programs", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Recreation Facilities", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Administrative", 
+                "General Government:City Attorney", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "Police:Budget Research and Equipment", 
+                "Public Services:Administration", 
+                "Public Services:Garages / Leased Properties", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Vehicle Allowance": {
+            "divisions": [
+                "Administrative Services:Administration", 
+                "Arts Recreation and Community Services:Administration", 
+                "Community Development:Administration", 
+                "General Government:City Attorney", 
+                "General Government:City Council", 
+                "General Government:City Manager", 
+                "Police:Administration", 
+                "Public Services:Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Vehicle Maintenance": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Administrative Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "Police:Administration", 
+                "Police:Investigations", 
+                "Police:Parking", 
+                "Police:Patrol", 
+                "Police:Traffic", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Vehicle Replacement": {
+            "divisions": [
+                "Public Services:Open Space", 
+                "Public Services:Clean Water", 
+                "Administrative Services:Administration", 
+                "Arts Recreation and Community Services:Aquatics and Special Events", 
+                "Arts Recreation and Community Services:Arts Education", 
+                "Arts Recreation and Community Services:Bedford Gallery", 
+                "Arts Recreation and Community Services:Center REPertory Theatre Company", 
+                "Arts Recreation and Community Services:Lesher Center for the Arts", 
+                "Arts Recreation and Community Services:Recreation Classes and Camps", 
+                "Arts Recreation and Community Services:Social Services", 
+                "Arts Recreation and Community Services:Sports and Teens", 
+                "Community Development:Building", 
+                "Community Development:Planning", 
+                "Police:Administration", 
+                "Police:Investigations", 
+                "Police:Parking", 
+                "Police:Patrol", 
+                "Police:Traffic", 
+                "Public Services:Building Maintenance", 
+                "Public Services:Custodial", 
+                "Public Services:Engineering", 
+                "Public Services:Equipment Maintenance", 
+                "Public Services:Graffiti Removal", 
+                "Public Services:Parks", 
+                "Public Services:Street Maintenance", 
+                "Public Services:Street Sweeping", 
+                "Public Services:Traffic Signals and Streetlights", 
+                "Public Services:Traffic Signs Marking and Parking Meters", 
+                "Public Services:Transportation Operations", 
+                "Public Services:Urban Forestry", 
+                "Public Services:Capital Investment Program"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Open Space", 
+                "Special Revenue Funds:NPDES", 
+                "General Funds:General Fund", 
+                "Capital Project Fund:Capital Investment Program"
+            ]
+        }, 
+        "Expense:Welding & Acetylene": {
+            "divisions": [
+                "Public Services:Equipment Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }
+    }
+}

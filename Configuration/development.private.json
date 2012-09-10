@@ -1,0 +1,31 @@
+{
+    "application":{
+        "mode" : "debug",
+        "cookie_domain": "pabudget.dev",
+		"city" : "san_francisco",
+		"revenue" : "true",
+		"employee" : "false",
+		"color" : "#5695DE",
+		"lastYear" : "2011",
+		"steps" : 3,
+		"feeNames" : [
+			"Net Sales",
+			"Charges for Services",
+			"Permits and Licenses",
+			"Rental Income",
+			"From Other Agencies",
+			"Charges to Other Funds"
+		]
+    },
+    "DB:pa_budget_data":{
+        "type":"mongo",
+        "database" : "pabudgets",
+        "host" : "localhost",
+        "user" : "",
+        "password" : "",
+        "mode":"mongo",
+        "session":"true",
+        "session_hook":"php"
+    }
+}
+

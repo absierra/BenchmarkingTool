@@ -1,0 +1,19 @@
+{
+    "resource": {
+        "core_css"    : "css/core.css",
+
+        "core_js"     : "js/core.js",
+        "info_js"     : "js/info.js",
+        "graph_js"    : "js/graph.js",
+        "notes_js"    : "js/notes.js",
+        "dropdown_js" : "js/dropdown.js",
+        "title_js"    : "js/title.js",
+        "legend_js"   : "js/legend.js",
+        "slideshow_js": "js/slideshow.js",
+        "tooltip_js"  : "js/tooltip.js",
+        "jquery_js"   : "js/forgivemeabbey.js"
+    },
+    "dependency":[
+        "mootools-core"
+    ]
+}

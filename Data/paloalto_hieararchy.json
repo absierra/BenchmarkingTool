@@ -1,0 +1,118 @@
+{
+    "order": ["Breakdown", "Funds", "Departments", "Expenses"],
+
+    "hierarchy": {
+        "Funds": {
+            "All Funds": [{"constant":1, "noexpand":1, "special":"AllFunds"}, {
+                "fund1": [{"special":{"Internal Services Funds":"InternalServices"},
+                    "order": [
+                        "General Funds",
+                        "Enterprise Funds",
+                        "Internal Services Funds",
+                        "Special Revenue Funds",
+                        "Debt Service Funds",
+                        "Capital Funds"
+                    ]},{
+                    "fund2": {
+                        "fund3": {
+                            "fund4": {
+                                "fund5": {
+                                }
+                            }
+                        }
+                    }
+                }]
+            }]
+        },
+
+        "Departments": {
+            "All Departments": [{"constant":1, "noexpand":1}, {
+                "dept1": [{
+                     "order": [
+                        "City Attorney",
+                        "City Auditor",
+                        "City Clerk",
+                        "City Council",
+                        "City Manager",
+                        "Administrative Services",
+                        "Community Services Department",
+                        "Human Resources Department",
+                        "Information Technology",
+                        "Library Department",
+                        "Planning & Community",
+                        "Fire Department",
+                        "Police Department",
+                        "Public Works Department",
+                        "Utilities Department",
+                        "Cubberley Lease",
+                        "Non-Departmental"
+                    ]},{
+                    "dept2": {
+                        "dept3": {
+                            "dept4": {
+                                "dept5": {
+                                }
+                            }
+                        }
+                    }
+                }]
+            }]
+        },
+
+        "Ledger": {
+            "ledger1": [{"special": { "Expenses":"Expenses","Revenues":"Revenues" }, "aggregate":"amount", "noexpand":1
+                        ,"order":["Revenues", "Expenses"], "fixed":1}, {
+                "ledger2": [{"special": { "Taxes":"Taxes","Non-Taxes":"Non-Taxes","Transfers Out":"TransfersOut"}
+                            ,"order":[
+                                "Taxes",
+                                "Non-Taxes",
+                                "Utility Purchases & Charges",
+                                "Salaries & Benefits",
+                                "Contract Services",
+                                "Supplies & Materials",
+                                "Facilities & Equip Purchases",
+                                "General Expense",
+                                "Rents & Leases",
+                                "Allocated Charges",
+                                "Debt Service",
+                                "Wastewater Treatment",
+                                "Net Sales",
+                                "Capital Improvement",
+                                "Transfers to CIP",
+                                "Transfers Out"
+                            ]
+                            , "aggregate":"amount"}, {
+                    "ledger3": [{"special":{"Transfers In":"TransfersIn"},
+                        "order": [
+                            "Sales Taxes",
+                            "Property Taxes",
+                            "Transient Occupancy Tax",
+                            "Utility Users Tax",
+                            "Documentary Transfer Tax",
+                            "Charges for Services",
+                            "Permits and Licenses",
+                            "Return on Investments",
+                            "Rental Income",
+                            "Net Sales",
+                            "From Other Agencies",
+                            "Charges to Other Funds",
+                            "Other Revenue",
+                            "Other Invome",
+                            "Other Taxes and Fines",
+                            "Transfers In"
+                        ]},{
+                        "ledger4": {
+                            "ledger5": {
+                            }
+                        }
+                    }]
+                }]
+            }],
+
+            "JobTypes": [{"constant":1, "aggregate":"salary", "hidden":1, "special":"jobTypes"}, {
+                "title": {
+                }
+            }]
+        }
+    }
+}

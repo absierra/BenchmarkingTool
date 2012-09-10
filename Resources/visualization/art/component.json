@@ -1,0 +1,14 @@
+{
+    "resource" :{
+        "art":"ART.js",
+        "art_base":"ART.Base.js",
+        "art_shape":"ART.Shape.js",
+        "art_path":"ART.Path.js",
+        "art_font":"ART.Font.js",
+        "art_svg":"ART.SVG.js",
+        "art_vml":"ART.VML.js"
+    },
+    "dependency":[
+        "mootools-core"
+    ]
+}

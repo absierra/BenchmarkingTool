@@ -1,0 +1,1925 @@
+{
+    "divisions": {
+        "Administrative Services": {
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Office Support Services"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources ", 
+                "Revenue:Internal Service Charges", 
+                "Expense:Transfers Out", 
+                "Revenue:Charge for Services"
+            ]
+        }, 
+        "Administrative Services:Finance Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Administrative Services:Human Resources": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries"
+            ]
+        }, 
+        "Administrative Services:IT Equipment Replacement": {
+            "funds": [
+                "Internal Service Funds:IT Replacement Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Transfers Out", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Administrative Services:Information Technology Services": {
+            "funds": [
+                "Internal Service Funds:Information Technology Services"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Administrative Services:Office Support": {
+            "funds": [
+                "Internal Service Funds:Office Support Services"
+            ], 
+            "ledgers": [
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Materials and Supplies", 
+                "Revenue:Charge for Services", 
+                "Revenue:Internal Service Charges"
+            ]
+        }, 
+        "City Manager": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "City Manager:City Clerk": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "City Manager:City Manager's Office": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Community Development": {
+            "funds": [
+                "General Funds:General Fund", 
+                "Special Revenue Funds:SHARP Program Fund", 
+                "Special Revenue Funds:CDBG Program Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Charge for Services", 
+                "Revenue:Other Sources ", 
+                "Expense:Other Sources ", 
+                "Expense:Transfers Out", 
+                "Revenue:Intergovernmental Revenues"
+            ]
+        }, 
+        "Community Development:Advanced Planning": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Community Development:Building and Inspection Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Community Development:CDBG Administration": {
+            "funds": [
+                "Special Revenue Funds:CDBG Program Fund"
+            ], 
+            "ledgers": [
+                "Expense:Transfers Out", 
+                "Revenue:Intergovernmental Revenues"
+            ]
+        }, 
+        "Community Development:Code Compliance": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Community Development:Development Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Other Sources ", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Community Development:Saratoga Housing and Rehabilitation Program": {
+            "funds": [
+                "Special Revenue Funds:SHARP Program Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fees and Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Council and Commissions": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Council and Commissions:City Commissions": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Council and Commissions:City Council": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Non Departmental": {
+            "funds": [
+                "Debt Service Fund:2001 Series GO Bond", 
+                "General Funds:General Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Workers Compensation", 
+                "Trust Fund:KSAR Trust Fund", 
+                "Trust Fund:Library Capital Improvement Fund"
+            ], 
+            "ledgers": [
+                "Revenue:Interest and Rental Income", 
+                "Revenue:Taxes", 
+                "Expense:Total Community Events", 
+                "Revenue:Other Sources ", 
+                "Expense:CDBG Funded Public Service Grants", 
+                "Expense:Chamber of Commerce", 
+                "Expense:Community Service Saratoga Support Groups", 
+                "Expense:Community Service Special Interest Grants ", 
+                "Expense:KSAR", 
+                "Expense:SASCC", 
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Expense:Transfers Out", 
+                "Revenue:Business License Tax", 
+                "Revenue:Charge for Services", 
+                "Revenue:Franchise Fee Tax", 
+                "Revenue:Motor Vehicle in Lieu ", 
+                "Revenue:Other Intergovernmental", 
+                "Revenue:Other Taxes ", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Sales Tax", 
+                "Revenue:Transfers In", 
+                "Revenue:Transient Occupancy Tax", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Expense:Insurance", 
+                "Expense:Total Operating Transfers", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Internal Service Charges", 
+                "Expense:Fund Withdrawals", 
+                "Revenue:Interest", 
+                "Revenue:Taxes/Franchise Fees", 
+                "Expense:Fixed Assets", 
+                "Expense:Debt Service "
+            ]
+        }, 
+        "Non Departmental:Community Events": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Total Community Events", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Non Departmental:Community Grants": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:CDBG Funded Public Service Grants", 
+                "Expense:Chamber of Commerce", 
+                "Expense:Community Service Saratoga Support Groups", 
+                "Expense:Community Service Special Interest Grants ", 
+                "Expense:KSAR", 
+                "Expense:SASCC"
+            ]
+        }, 
+        "Non Departmental:General Administration": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Expense:Transfers Out", 
+                "Revenue:Business License Tax", 
+                "Revenue:Charge for Services", 
+                "Revenue:Franchise Fee Tax", 
+                "Revenue:Motor Vehicle in Lieu ", 
+                "Revenue:Other Intergovernmental", 
+                "Revenue:Other Sources ", 
+                "Revenue:Other Taxes ", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Sales Tax", 
+                "Revenue:Transfers In", 
+                "Revenue:Transient Occupancy Tax"
+            ]
+        }, 
+        "Non Departmental:KSAR Community Access": {
+            "funds": [
+                "Trust Fund:KSAR Trust Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fund Withdrawals", 
+                "Revenue:Interest", 
+                "Revenue:Taxes/Franchise Fees"
+            ]
+        }, 
+        "Non Departmental:Legal Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Revenue:Charge for Services", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Non Departmental:Liability / Risk Management": {
+            "funds": [
+                "Internal Service Funds:Liability / Risk Management"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Insurance", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Expense:Total Operating Transfers", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Non Departmental:Liability Insurance / Pass Throughs": {
+            "funds": [
+                "Internal Service Funds:Liability / Risk Management"
+            ], 
+            "ledgers": [
+                "Expense:Fees and Charges", 
+                "Expense:Materials and Supplies", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Non Departmental:Library 2001 Series Bond Debt Service": {
+            "funds": [
+                "Debt Service Fund:2001 Series GO Bond"
+            ], 
+            "ledgers": [
+                "Revenue:Interest and Rental Income", 
+                "Revenue:Taxes", 
+                "Expense:Debt Service "
+            ]
+        }, 
+        "Non Departmental:Library Capital Improvement Fund": {
+            "funds": [
+                "Trust Fund:Library Capital Improvement Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fixed Assets", 
+                "Expense:Transfers Out", 
+                "Revenue:Interest and Rental Income"
+            ]
+        }, 
+        "Non Departmental:Workers Compensation": {
+            "funds": [
+                "Internal Service Funds:Workers Compensation"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Insurance", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Public Safety": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Other Sources ", 
+                "Expense:Consultant and Contract Services ", 
+                "Revenue:Charge for Services"
+            ]
+        }, 
+        "Public Safety:Emergency Preparedness": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Public Safety:Public Safety Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Materials and Supplies", 
+                "Revenue:Charge for Services", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Public Works": {
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Vehicle and Equipment Replacement", 
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Expense:Meetings Events and Training", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Taxes", 
+                "Revenue:Other Sources ", 
+                "Expense:Fixed Assets", 
+                "Revenue:Rental Income", 
+                "Revenue:Internal Service Charges", 
+                "Expense:Transfers Out", 
+                "Revenue:LandL Assessments", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Public Works:Development Engineering": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Public Works:Environmental Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Taxes"
+            ]
+        }, 
+        "Public Works:General Engineering": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Public Works:Landscape and Lighting Districts": {
+            "funds": [
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ], 
+            "ledgers": [
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Transfers Out", 
+                "Revenue:LandL Assessments", 
+                "Revenue:Other Sources ", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Public Works:Parks and Landscape Maintenance": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Other Sources ", 
+                "Revenue:Rental Income"
+            ]
+        }, 
+        "Public Works:Streets and Storm Drain Maintenance": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Public Works:Vehicle and Equipment Maintenance": {
+            "funds": [
+                "Internal Service Funds:Vehicle and Equipment Maintenance"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Salaries", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Public Works:Vehicle and Equipment Replacement": {
+            "funds": [
+                "Internal Service Funds:Vehicle and Equipment Replacement"
+            ], 
+            "ledgers": [
+                "Expense:Fixed Assets", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Recreation": {
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Building Maintenance"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Rental Income", 
+                "Revenue:Charge for Services", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources ", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Recreation:Building Maintenance": {
+            "funds": [
+                "Internal Service Funds:Building Maintenance"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources ", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Recreation:Facility Rentals": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Rental Income"
+            ]
+        }, 
+        "Recreation:Receation Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Recreation:Teen Services": {
+            "funds": [
+                "General Funds:General Fund"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Charge for Services", 
+                "Revenue:Other Sources "
+            ]
+        }
+    }, 
+    "funds": {
+        "Debt Service Fund": {
+            "divisions": [
+                "Non Departmental:Library 2001 Series Bond Debt Service"
+            ], 
+            "ledgers": [
+                "Revenue:Interest and Rental Income", 
+                "Revenue:Taxes", 
+                "Expense:Debt Service "
+            ]
+        }, 
+        "Debt Service Fund:2001 Series GO Bond": {
+            "divisions": [
+                "Non Departmental:Library 2001 Series Bond Debt Service"
+            ], 
+            "ledgers": [
+                "Revenue:Interest and Rental Income", 
+                "Revenue:Taxes", 
+                "Expense:Debt Service "
+            ]
+        }, 
+        "General Funds": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:Community Events", 
+                "Non Departmental:Community Grants", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources ", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Charge for Services", 
+                "Expense:Other Sources ", 
+                "Expense:Total Community Events", 
+                "Expense:CDBG Funded Public Service Grants", 
+                "Expense:Chamber of Commerce", 
+                "Expense:Community Service Saratoga Support Groups", 
+                "Expense:Community Service Special Interest Grants ", 
+                "Expense:KSAR", 
+                "Expense:SASCC", 
+                "Expense:Transfers Out", 
+                "Revenue:Business License Tax", 
+                "Revenue:Franchise Fee Tax", 
+                "Revenue:Motor Vehicle in Lieu ", 
+                "Revenue:Other Intergovernmental", 
+                "Revenue:Other Taxes ", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Sales Tax", 
+                "Revenue:Transfers In", 
+                "Revenue:Transient Occupancy Tax", 
+                "Revenue:Taxes", 
+                "Revenue:Rental Income"
+            ]
+        }, 
+        "General Funds:General Fund": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:Community Events", 
+                "Non Departmental:Community Grants", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Other Sources ", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Charge for Services", 
+                "Expense:Other Sources ", 
+                "Expense:Total Community Events", 
+                "Expense:CDBG Funded Public Service Grants", 
+                "Expense:Chamber of Commerce", 
+                "Expense:Community Service Saratoga Support Groups", 
+                "Expense:Community Service Special Interest Grants ", 
+                "Expense:KSAR", 
+                "Expense:SASCC", 
+                "Expense:Transfers Out", 
+                "Revenue:Business License Tax", 
+                "Revenue:Franchise Fee Tax", 
+                "Revenue:Motor Vehicle in Lieu ", 
+                "Revenue:Other Intergovernmental", 
+                "Revenue:Other Taxes ", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Sales Tax", 
+                "Revenue:Transfers In", 
+                "Revenue:Transient Occupancy Tax", 
+                "Revenue:Taxes", 
+                "Revenue:Rental Income"
+            ]
+        }, 
+        "Internal Service Funds": {
+            "divisions": [
+                "Administrative Services:Information Technology Services", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Liability Insurance / Pass Throughs", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Public Works:Vehicle and Equipment Replacement", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources ", 
+                "Expense:Fixed Assets", 
+                "Expense:Transfers Out", 
+                "Expense:Insurance", 
+                "Expense:Total Operating Transfers", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Fees Licenses and Permits ", 
+                "Revenue:Charge for Services", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Internal Service Funds:Building Maintenance": {
+            "divisions": [
+                "Recreation:Building Maintenance"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources ", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Internal Service Funds:IT Replacement Fund": {
+            "divisions": [
+                "Administrative Services:IT Equipment Replacement"
+            ], 
+            "ledgers": [
+                "Expense:Fixed Assets", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Transfers Out", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Internal Service Funds:Information Technology Services": {
+            "divisions": [
+                "Administrative Services:Information Technology Services"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Internal Service Funds:Liability / Risk Management": {
+            "divisions": [
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Liability Insurance / Pass Throughs"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Insurance", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Expense:Total Operating Transfers", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources ", 
+                "Revenue:Fees Licenses and Permits "
+            ]
+        }, 
+        "Internal Service Funds:Office Support Services": {
+            "divisions": [
+                "Administrative Services:Office Support"
+            ], 
+            "ledgers": [
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Fixed Assets", 
+                "Expense:Materials and Supplies", 
+                "Revenue:Charge for Services", 
+                "Revenue:Internal Service Charges"
+            ]
+        }, 
+        "Internal Service Funds:Vehicle and Equipment Maintenance": {
+            "divisions": [
+                "Public Works:Vehicle and Equipment Maintenance"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Internal Service Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Salaries", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Internal Service Funds:Vehicle and Equipment Replacement": {
+            "divisions": [
+                "Public Works:Vehicle and Equipment Replacement"
+            ], 
+            "ledgers": [
+                "Expense:Fixed Assets", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Internal Service Funds:Workers Compensation": {
+            "divisions": [
+                "Non Departmental:Workers Compensation"
+            ], 
+            "ledgers": [
+                "Expense:Benefits", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Insurance", 
+                "Expense:Materials and Supplies", 
+                "Expense:Meetings Events and Training", 
+                "Expense:Salaries", 
+                "Revenue:Intergovernmental Revenues", 
+                "Revenue:Internal Service Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Special Revenue Funds": {
+            "divisions": [
+                "Community Development:Saratoga Housing and Rehabilitation Program", 
+                "Community Development:CDBG Administration", 
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "ledgers": [
+                "Expense:Fees and Charges", 
+                "Revenue:Other Sources ", 
+                "Expense:Transfers Out", 
+                "Revenue:Intergovernmental Revenues", 
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Materials and Supplies", 
+                "Revenue:LandL Assessments", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Special Revenue Funds:CDBG Program Fund": {
+            "divisions": [
+                "Community Development:CDBG Administration"
+            ], 
+            "ledgers": [
+                "Expense:Transfers Out", 
+                "Revenue:Intergovernmental Revenues"
+            ]
+        }, 
+        "Special Revenue Funds:Landscape and Lighting Districts": {
+            "divisions": [
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "ledgers": [
+                "Expense:Consultant and Contract Services ", 
+                "Expense:Fees and Charges", 
+                "Expense:Materials and Supplies", 
+                "Expense:Transfers Out", 
+                "Revenue:LandL Assessments", 
+                "Revenue:Other Sources ", 
+                "Revenue:Property Taxes ", 
+                "Revenue:Transfers In"
+            ]
+        }, 
+        "Special Revenue Funds:SHARP Program Fund": {
+            "divisions": [
+                "Community Development:Saratoga Housing and Rehabilitation Program"
+            ], 
+            "ledgers": [
+                "Expense:Fees and Charges", 
+                "Revenue:Other Sources "
+            ]
+        }, 
+        "Trust Fund": {
+            "divisions": [
+                "Non Departmental:KSAR Community Access", 
+                "Non Departmental:Library Capital Improvement Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fund Withdrawals", 
+                "Revenue:Interest", 
+                "Revenue:Taxes/Franchise Fees", 
+                "Expense:Fixed Assets", 
+                "Expense:Transfers Out", 
+                "Revenue:Interest and Rental Income"
+            ]
+        }, 
+        "Trust Fund:KSAR Trust Fund": {
+            "divisions": [
+                "Non Departmental:KSAR Community Access"
+            ], 
+            "ledgers": [
+                "Expense:Fund Withdrawals", 
+                "Revenue:Interest", 
+                "Revenue:Taxes/Franchise Fees"
+            ]
+        }, 
+        "Trust Fund:Library Capital Improvement Fund": {
+            "divisions": [
+                "Non Departmental:Library Capital Improvement Fund"
+            ], 
+            "ledgers": [
+                "Expense:Fixed Assets", 
+                "Expense:Transfers Out", 
+                "Revenue:Interest and Rental Income"
+            ]
+        }
+    }, 
+    "ledgers": {
+        "Expense": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:Community Events", 
+                "Non Departmental:Community Grants", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Liability Insurance / Pass Throughs", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Public Works:Vehicle and Equipment Replacement", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation", 
+                "Community Development:Saratoga Housing and Rehabilitation Program", 
+                "Community Development:CDBG Administration", 
+                "Public Works:Landscape and Lighting Districts", 
+                "Non Departmental:KSAR Community Access", 
+                "Non Departmental:Library Capital Improvement Fund", 
+                "Non Departmental:Library 2001 Series Bond Debt Service"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Office Support Services", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Vehicle and Equipment Replacement", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation", 
+                "Special Revenue Funds:SHARP Program Fund", 
+                "Special Revenue Funds:CDBG Program Fund", 
+                "Special Revenue Funds:Landscape and Lighting Districts", 
+                "Trust Fund:KSAR Trust Fund", 
+                "Trust Fund:Library Capital Improvement Fund", 
+                "Debt Service Fund:2001 Series GO Bond"
+            ]
+        }, 
+        "Expense:Benefits": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:General Administration", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Non Departmental:Liability / Risk Management", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation"
+            ]
+        }, 
+        "Expense:CDBG Funded Public Service Grants": {
+            "divisions": [
+                "Non Departmental:Community Grants"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Chamber of Commerce": {
+            "divisions": [
+                "Non Departmental:Community Grants"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Community Service Saratoga Support Groups": {
+            "divisions": [
+                "Non Departmental:Community Grants"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Community Service Special Interest Grants ": {
+            "divisions": [
+                "Non Departmental:Community Grants"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Consultant and Contract Services ": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Non Departmental:Liability / Risk Management", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation", 
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Office Support Services", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation", 
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ]
+        }, 
+        "Expense:Debt Service ": {
+            "divisions": [
+                "Non Departmental:Library 2001 Series Bond Debt Service"
+            ], 
+            "funds": [
+                "Debt Service Fund:2001 Series GO Bond"
+            ]
+        }, 
+        "Expense:Fees and Charges": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Administrative Services:Information Technology Services", 
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Liability Insurance / Pass Throughs", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Recreation:Building Maintenance", 
+                "Community Development:Saratoga Housing and Rehabilitation Program", 
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Office Support Services", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Building Maintenance", 
+                "Special Revenue Funds:SHARP Program Fund", 
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ]
+        }, 
+        "Expense:Fixed Assets": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "City Manager:City Clerk", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Replacement", 
+                "Non Departmental:Library Capital Improvement Fund"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Office Support Services", 
+                "Internal Service Funds:Vehicle and Equipment Replacement", 
+                "Trust Fund:Library Capital Improvement Fund"
+            ]
+        }, 
+        "Expense:Fund Withdrawals": {
+            "divisions": [
+                "Non Departmental:KSAR Community Access"
+            ], 
+            "funds": [
+                "Trust Fund:KSAR Trust Fund"
+            ]
+        }, 
+        "Expense:Insurance": {
+            "divisions": [
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Workers Compensation"
+            ], 
+            "funds": [
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Workers Compensation"
+            ]
+        }, 
+        "Expense:Internal Service Charges": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Non Departmental:Liability / Risk Management", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Recreation:Building Maintenance"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Building Maintenance"
+            ]
+        }, 
+        "Expense:KSAR": {
+            "divisions": [
+                "Non Departmental:Community Grants"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Materials and Supplies": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Liability Insurance / Pass Throughs", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation", 
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Office Support Services", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation", 
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ]
+        }, 
+        "Expense:Meetings Events and Training": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Non Departmental:Liability / Risk Management", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation"
+            ]
+        }, 
+        "Expense:Other Sources ": {
+            "divisions": [
+                "Community Development:Development Services"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:SASCC": {
+            "divisions": [
+                "Non Departmental:Community Grants"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Salaries": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "Administrative Services:Human Resources", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:General Administration", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Non Departmental:Liability / Risk Management", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation"
+            ]
+        }, 
+        "Expense:Total Community Events": {
+            "divisions": [
+                "Non Departmental:Community Events"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Expense:Total Operating Transfers": {
+            "divisions": [
+                "Non Departmental:Liability / Risk Management"
+            ], 
+            "funds": [
+                "Internal Service Funds:Liability / Risk Management"
+            ]
+        }, 
+        "Expense:Transfers Out": {
+            "divisions": [
+                "Non Departmental:General Administration", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Community Development:CDBG Administration", 
+                "Public Works:Landscape and Lighting Districts", 
+                "Non Departmental:Library Capital Improvement Fund"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Special Revenue Funds:CDBG Program Fund", 
+                "Special Revenue Funds:Landscape and Lighting Districts", 
+                "Trust Fund:Library Capital Improvement Fund"
+            ]
+        }, 
+        "Revenue": {
+            "divisions": [
+                "Non Departmental:Library 2001 Series Bond Debt Service", 
+                "Administrative Services:Finance Services", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:Community Events", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Environmental Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Facility Rentals", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Liability Insurance / Pass Throughs", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Public Works:Vehicle and Equipment Replacement", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation", 
+                "Community Development:Saratoga Housing and Rehabilitation Program", 
+                "Community Development:CDBG Administration", 
+                "Public Works:Landscape and Lighting Districts", 
+                "Non Departmental:KSAR Community Access", 
+                "Non Departmental:Library Capital Improvement Fund"
+            ], 
+            "funds": [
+                "Debt Service Fund:2001 Series GO Bond", 
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Office Support Services", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Vehicle and Equipment Replacement", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation", 
+                "Special Revenue Funds:SHARP Program Fund", 
+                "Special Revenue Funds:CDBG Program Fund", 
+                "Special Revenue Funds:Landscape and Lighting Districts", 
+                "Trust Fund:KSAR Trust Fund", 
+                "Trust Fund:Library Capital Improvement Fund"
+            ]
+        }, 
+        "Revenue:Business License Tax": {
+            "divisions": [
+                "Non Departmental:General Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Charge for Services": {
+            "divisions": [
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Development Services", 
+                "Non Departmental:General Administration", 
+                "Non Departmental:Legal Services", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Receation Services", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Office Support"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Office Support Services"
+            ]
+        }, 
+        "Revenue:Fees Licenses and Permits ": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "City Manager:City Clerk", 
+                "Community Development:Advanced Planning", 
+                "Community Development:Building and Inspection Services", 
+                "Community Development:Code Compliance", 
+                "Community Development:Development Services", 
+                "Council and Commissions:City Commissions", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:Legal Services", 
+                "Public Works:Development Engineering", 
+                "Public Works:General Engineering", 
+                "Recreation:Receation Services", 
+                "Non Departmental:Liability Insurance / Pass Throughs"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Liability / Risk Management"
+            ]
+        }, 
+        "Revenue:Franchise Fee Tax": {
+            "divisions": [
+                "Non Departmental:General Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Interest": {
+            "divisions": [
+                "Non Departmental:KSAR Community Access"
+            ], 
+            "funds": [
+                "Trust Fund:KSAR Trust Fund"
+            ]
+        }, 
+        "Revenue:Interest and Rental Income": {
+            "divisions": [
+                "Non Departmental:Library 2001 Series Bond Debt Service", 
+                "Non Departmental:Library Capital Improvement Fund"
+            ], 
+            "funds": [
+                "Debt Service Fund:2001 Series GO Bond", 
+                "Trust Fund:Library Capital Improvement Fund"
+            ]
+        }, 
+        "Revenue:Intergovernmental Revenues": {
+            "divisions": [
+                "City Manager:City Clerk", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:Environmental Services", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Workers Compensation", 
+                "Community Development:CDBG Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Workers Compensation", 
+                "Special Revenue Funds:CDBG Program Fund"
+            ]
+        }, 
+        "Revenue:Internal Service Charges": {
+            "divisions": [
+                "Administrative Services:Information Technology Services", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Non Departmental:Liability / Risk Management", 
+                "Administrative Services:Office Support", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Public Works:Vehicle and Equipment Replacement", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation"
+            ], 
+            "funds": [
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Office Support Services", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Vehicle and Equipment Replacement", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation"
+            ]
+        }, 
+        "Revenue:LandL Assessments": {
+            "divisions": [
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ]
+        }, 
+        "Revenue:Motor Vehicle in Lieu ": {
+            "divisions": [
+                "Non Departmental:General Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Other Intergovernmental": {
+            "divisions": [
+                "Non Departmental:General Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Other Sources ": {
+            "divisions": [
+                "Administrative Services:Finance Services", 
+                "City Manager:City Clerk", 
+                "City Manager:City Manager's Office", 
+                "Community Development:Code Compliance", 
+                "Council and Commissions:City Council", 
+                "Non Departmental:Community Events", 
+                "Non Departmental:General Administration", 
+                "Public Safety:Emergency Preparedness", 
+                "Public Safety:Public Safety Services", 
+                "Public Works:General Engineering", 
+                "Public Works:Parks and Landscape Maintenance", 
+                "Public Works:Streets and Storm Drain Maintenance", 
+                "Recreation:Teen Services", 
+                "Administrative Services:Information Technology Services", 
+                "Administrative Services:IT Equipment Replacement", 
+                "Non Departmental:Liability / Risk Management", 
+                "Non Departmental:Liability Insurance / Pass Throughs", 
+                "Public Works:Vehicle and Equipment Maintenance", 
+                "Public Works:Vehicle and Equipment Replacement", 
+                "Recreation:Building Maintenance", 
+                "Non Departmental:Workers Compensation", 
+                "Community Development:Saratoga Housing and Rehabilitation Program", 
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Information Technology Services", 
+                "Internal Service Funds:IT Replacement Fund", 
+                "Internal Service Funds:Liability / Risk Management", 
+                "Internal Service Funds:Vehicle and Equipment Maintenance", 
+                "Internal Service Funds:Vehicle and Equipment Replacement", 
+                "Internal Service Funds:Building Maintenance", 
+                "Internal Service Funds:Workers Compensation", 
+                "Special Revenue Funds:SHARP Program Fund", 
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ]
+        }, 
+        "Revenue:Other Taxes ": {
+            "divisions": [
+                "Non Departmental:General Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Property Taxes ": {
+            "divisions": [
+                "Non Departmental:General Administration", 
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ]
+        }, 
+        "Revenue:Rental Income": {
+            "divisions": [
+                "Public Works:Parks and Landscape Maintenance", 
+                "Recreation:Facility Rentals"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Sales Tax": {
+            "divisions": [
+                "Non Departmental:General Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Taxes": {
+            "divisions": [
+                "Non Departmental:Library 2001 Series Bond Debt Service", 
+                "Public Works:Environmental Services"
+            ], 
+            "funds": [
+                "Debt Service Fund:2001 Series GO Bond", 
+                "General Funds:General Fund"
+            ]
+        }, 
+        "Revenue:Taxes/Franchise Fees": {
+            "divisions": [
+                "Non Departmental:KSAR Community Access"
+            ], 
+            "funds": [
+                "Trust Fund:KSAR Trust Fund"
+            ]
+        }, 
+        "Revenue:Transfers In": {
+            "divisions": [
+                "Non Departmental:General Administration", 
+                "Recreation:Building Maintenance", 
+                "Public Works:Landscape and Lighting Districts"
+            ], 
+            "funds": [
+                "General Funds:General Fund", 
+                "Internal Service Funds:Building Maintenance", 
+                "Special Revenue Funds:Landscape and Lighting Districts"
+            ]
+        }, 
+        "Revenue:Transient Occupancy Tax": {
+            "divisions": [
+                "Non Departmental:General Administration"
+            ], 
+            "funds": [
+                "General Funds:General Fund"
+            ]
+        }
+    }
+}

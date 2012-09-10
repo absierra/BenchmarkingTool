@@ -1,0 +1,3514 @@
+{
+    "divisions": {
+        "Administration and Finance": {
+            "funds": [
+                "Internal Service Funds:Internal Service", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project", 
+                "Trust Funds:Trust", 
+                "Other Agency Funds:Other Agency", 
+                "Debt Service Funds:Debt Service"
+            ], 
+            "ledgers": [
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:BUSINESS TAXES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY", 
+                "Expense:SALARIES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:GENERAL FUND SUBSIDY TRANSFER OUT", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:OVERHEAD", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:ALLOCATED CHARGES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:CONTRIBUTIONS(RETIREMENT;HSS;HLTH CARE)", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Revenue:INTRAFUND TRANSFERS IN"
+            ]
+        }, 
+        "Administration and Finance:ASSESSOR / RECORDER": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:OVERHEAD", 
+                "Expense:PROGRAMMATIC PROJECTS"
+            ]
+        }, 
+        "Administration and Finance:BOARD OF SUPERVISORS": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SALARIES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:SERVICES OF OTHER DEPTS"
+            ]
+        }, 
+        "Administration and Finance:CITY ATTORNEY": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SALARIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:MANDATORY FRINGE BENEFITS"
+            ]
+        }, 
+        "Administration and Finance:CITY PLANNING": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:SALARIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Administration and Finance:CIVIL SERVICE COMMISSION": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY"
+            ]
+        }, 
+        "Administration and Finance:CONTROLLER": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:PROPERTY TAXES", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:EXPENDITURE RECOVERY"
+            ]
+        }, 
+        "Administration and Finance:ELECTIONS": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:SALARIES", 
+                "Revenue:CHARGES FOR SERVICES"
+            ]
+        }, 
+        "Administration and Finance:ETHICS COMMISSION": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:SALARIES"
+            ]
+        }, 
+        "Administration and Finance:GENERAL CITY RESPONSIBILITY": {
+            "funds": [
+                "General Funds:General", 
+                "Debt Service Funds:Debt Service", 
+                "Internal Service Funds:Internal Service", 
+                "Other Agency Funds:Other Agency"
+            ], 
+            "ledgers": [
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:GENERAL FUND SUBSIDY TRANSFER OUT", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:DEBT SERVICE", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:CONTRIBUTIONS(RETIREMENT;HSS;HLTH CARE)", 
+                "Revenue:EXPENDITURE RECOVERY"
+            ]
+        }, 
+        "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN": {
+            "funds": [
+                "Internal Service Funds:Internal Service", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project", 
+                "Trust Funds:Trust", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:BUSINESS TAXES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SALARIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:OVERHEAD", 
+                "Expense:DEBT SERVICE", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:INTRAFUND TRANSFERS IN"
+            ]
+        }, 
+        "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Internal Service Funds:Internal Service"
+            ], 
+            "ledgers": [
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:OVERHEAD", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTEREST & INVESTMENT INCOME"
+            ]
+        }, 
+        "Administration and Finance:HEALTH SERVICE SYSTEM": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SALARIES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:CHARGES FOR SERVICES"
+            ]
+        }, 
+        "Administration and Finance:HUMAN RESOURCES": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS"
+            ]
+        }, 
+        "Administration and Finance:MAYOR": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:SALARIES", 
+                "Expense:OVERHEAD"
+            ]
+        }, 
+        "Administration and Finance:RETIREMENT SYSTEM": {
+            "funds": [
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SALARIES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:CONTRIBUTIONS(RETIREMENT;HSS;HLTH CARE)", 
+                "Expense:OVERHEAD", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:CAPITAL OUTLAY"
+            ]
+        }, 
+        "Administration and Finance:TREASURER/TAX COLLECTOR": {
+            "funds": [
+                "Other Agency Funds:Other Agency", 
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:OVERHEAD", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:CHARGES FOR SERVICES"
+            ]
+        }, 
+        "Community Health": {
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project"
+            ], 
+            "ledgers": [
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:SALARIES", 
+                "Revenue:ISF CHARGES FOR SERVICES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:OVERHEAD", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:CITY GRANT PROGRAMS"
+            ]
+        }, 
+        "Community Health:PUBLIC HEALTH": {
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project"
+            ], 
+            "ledgers": [
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:SALARIES", 
+                "Revenue:ISF CHARGES FOR SERVICES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:OVERHEAD", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:CITY GRANT PROGRAMS"
+            ]
+        }, 
+        "Culture and Recreation": {
+            "funds": [
+                "Other Agency Funds:Other Agency", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:OVERHEAD", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:DEBT SERVICE", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Culture and Recreation:ACADEMY OF SCIENCES": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:MANDATORY FRINGE BENEFITS"
+            ]
+        }, 
+        "Culture and Recreation:ARTS COMMISSION": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Culture and Recreation:ASIAN ART MUSEUM": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:OVERHEAD", 
+                "Revenue:OTHER LOCAL TAXES"
+            ]
+        }, 
+        "Culture and Recreation:FINE ARTS MUSEUM": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:OVERHEAD"
+            ]
+        }, 
+        "Culture and Recreation:LAW LIBRARY": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS"
+            ]
+        }, 
+        "Culture and Recreation:PUBLIC LIBRARY": {
+            "funds": [
+                "Other Agency Funds:Other Agency", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SALARIES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:PROPERTY TAXES", 
+                "Expense:DEBT SERVICE", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:OVERHEAD", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Culture and Recreation:RECREATION AND PARK COMMISSION": {
+            "funds": [
+                "Capital Project Funds:Capital Project", 
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:OVERHEAD", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SALARIES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:DEBT SERVICE", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:INTRAFUND TRANSFERS OUT"
+            ]
+        }, 
+        "Culture and Recreation:WAR MEMORIAL": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project"
+            ], 
+            "ledgers": [
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:SALARIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:OVERHEAD", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:OTHER LOCAL TAXES"
+            ]
+        }, 
+        "Human Welfare": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency"
+            ], 
+            "ledgers": [
+                "Revenue:PROPERTY TAXES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:SALARIES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:AID ASSISTANCE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:OVERHEAD", 
+                "Revenue:NON-ISF CHRGS FOR SVCS TO OTH CITY AGENC", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:AID PAYMENTS", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES"
+            ]
+        }, 
+        "Human Welfare:CHILD SUPPORT SERVICES": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:ALLOCATED CHARGES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Human Welfare:CHILDREN AND FAMILIES COMMISSION": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY"
+            ]
+        }, 
+        "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:SALARIES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:OVERHEAD", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY", 
+                "Revenue:NON-ISF CHRGS FOR SVCS TO OTH CITY AGENC", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:INTRAFUND TRANSFERS IN"
+            ]
+        }, 
+        "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Revenue:PROPERTY TAXES", 
+                "Expense:SALARIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:NON-ISF CHRGS FOR SVCS TO OTH CITY AGENC", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:INTEREST & INVESTMENT INCOME"
+            ]
+        }, 
+        "Human Welfare:COUNTY EDUCATION OFFICE": {
+            "funds": [
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS"
+            ]
+        }, 
+        "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES"
+            ]
+        }, 
+        "Human Welfare:ENVIRONMENT": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:OVERHEAD", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SALARIES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:OPERATING TRANSFERS IN"
+            ]
+        }, 
+        "Human Welfare:HUMAN RIGHTS COMMISSION": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:OVERHEAD", 
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS"
+            ]
+        }, 
+        "Human Welfare:HUMAN SERVICES": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:AID ASSISTANCE", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:SALARIES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:AID PAYMENTS", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:OPERATING TRANSFERS OUT"
+            ]
+        }, 
+        "Human Welfare:RENT ARBITRATION BOARD": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:OVERHEAD"
+            ]
+        }, 
+        "Other": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:SALARIES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:OVERHEAD", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:BUSINESS TAXES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:OPERATING TRANSFERS IN"
+            ]
+        }, 
+        "Other:GENERAL FUND UNALLOCATED": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:BUSINESS TAXES", 
+                "Revenue:OPERATING TRANSFERS IN"
+            ]
+        }, 
+        "Other:SUPERIOR COURT": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SALARIES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:OVERHEAD", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:FINES; FORFEITURES & PENALTIES"
+            ]
+        }, 
+        "Public Protection": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SALARIES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:ALLOCATED CHARGES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:OVERHEAD", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:OPERATING TRANSFERS OUT"
+            ]
+        }, 
+        "Public Protection:ADULT PROBATION": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:CITY GRANT PROGRAMS"
+            ]
+        }, 
+        "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:OVERHEAD", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SALARIES"
+            ]
+        }, 
+        "Public Protection:DISTRICT ATTORNEY": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:OVERHEAD"
+            ]
+        }, 
+        "Public Protection:FIRE DEPARTMENT": {
+            "funds": [
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SALARIES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:OVERHEAD"
+            ]
+        }, 
+        "Public Protection:JUVENILE PROBATION": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MATERIALS & SUPPLIES"
+            ]
+        }, 
+        "Public Protection:POLICE": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SALARIES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:OPERATING TRANSFERS OUT"
+            ]
+        }, 
+        "Public Protection:PUBLIC DEFENDER": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Public Protection:SHERIFF": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:SALARIES"
+            ]
+        }, 
+        "Public Works": {
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Other Agency Funds:Other Agency", 
+                "Capital Project Funds:Capital Project"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:OVERHEAD", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:DEBT SERVICE", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY"
+            ]
+        }, 
+        "Public Works:AIRPORT COMMISSION": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:SALARIES", 
+                "Expense:DEBT SERVICE"
+            ]
+        }, 
+        "Public Works:BOARD OF APPEALS": {
+            "funds": [
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:OVERHEAD"
+            ]
+        }, 
+        "Public Works:DEPARTMENT OF BUILDING INSPECTION": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue"
+            ], 
+            "ledgers": [
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:SERVICES OF OTHER DEPTS"
+            ]
+        }, 
+        "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT": {
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "Other Agency Funds:Other Agency", 
+                "General Funds:General"
+            ], 
+            "ledgers": [
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY"
+            ]
+        }, 
+        "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS": {
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project"
+            ], 
+            "ledgers": [
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:OVERHEAD", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:SALARIES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Public Works:HETCH HETCHY": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:DEBT SERVICE", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:OVERHEAD", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:OTHER FINANCING SOURCES"
+            ]
+        }, 
+        "Public Works:MTA-MUNICIPAL RAILWAY": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:OVERHEAD", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SALARIES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:ALLOCATED CHARGES"
+            ]
+        }, 
+        "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS"
+            ]
+        }, 
+        "Public Works:MTA-PARKING AND TRAFFIC COMMISSION": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:OVERHEAD", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:DEBT SERVICE", 
+                "Expense:SALARIES"
+            ]
+        }, 
+        "Public Works:MUNICIPAL TRANSPORTATION AGENCY": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:OVERHEAD", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:DEBT SERVICE", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:SALARIES"
+            ]
+        }, 
+        "Public Works:PORT": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:OVERHEAD", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:OPERATING TRANSFERS OUT"
+            ]
+        }, 
+        "Public Works:PUBLIC UTILITIES COMMISSION": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:OVERHEAD", 
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:CAPITAL OUTLAY"
+            ]
+        }, 
+        "Public Works:TAXI COMMISSION": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:OVERHEAD", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Expense:SALARIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:EXPENDITURE RECOVERY"
+            ]
+        }, 
+        "Public Works:WASTEWATER ENTERPRISE": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:OPERATING TRANSFERS OUT"
+            ]
+        }, 
+        "Public Works:WATER DEPARTMENT": {
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ], 
+            "ledgers": [
+                "Expense:DEBT SERVICE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:OVERHEAD", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:SALARIES", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:EXPENDITURE RECOVERY"
+            ]
+        }
+    }, 
+    "funds": {
+        "Capital Project Funds": {
+            "divisions": [
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Community Health:PUBLIC HEALTH", 
+                "Culture and Recreation:WAR MEMORIAL"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Capital Project Funds:Capital Project": {
+            "divisions": [
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Community Health:PUBLIC HEALTH", 
+                "Culture and Recreation:WAR MEMORIAL"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL"
+            ]
+        }, 
+        "Debt Service Funds": {
+            "divisions": [
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "ledgers": [
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:OPERATING TRANSFERS IN"
+            ]
+        }, 
+        "Debt Service Funds:Debt Service": {
+            "divisions": [
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "ledgers": [
+                "Revenue:PROPERTY TAXES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:OPERATING TRANSFERS IN"
+            ]
+        }, 
+        "Enterprise Funds": {
+            "divisions": [
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:PORT", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Protection:POLICE", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:TAXI COMMISSION"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:DEBT SERVICE", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:ISF CHARGES FOR SERVICES", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:ALLOCATED CHARGES", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER"
+            ]
+        }, 
+        "Enterprise Funds:Enterprise": {
+            "divisions": [
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:PORT", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Protection:POLICE", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:TAXI COMMISSION"
+            ], 
+            "ledgers": [
+                "Expense:SALARIES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:DEBT SERVICE", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:ISF CHARGES FOR SERVICES", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Expense:ALLOCATED CHARGES", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER REVENUES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER"
+            ]
+        }, 
+        "General Funds": {
+            "divisions": [
+                "Public Protection:JUVENILE PROBATION", 
+                "Administration and Finance:CONTROLLER", 
+                "Public Protection:SHERIFF", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:ADULT PROBATION", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Public Works:BOARD OF APPEALS", 
+                "Public Protection:POLICE", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:ELECTIONS", 
+                "Other:SUPERIOR COURT", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Human Welfare:COUNTY EDUCATION OFFICE", 
+                "Administration and Finance:MAYOR", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Public Protection:PUBLIC DEFENDER"
+            ], 
+            "ledgers": [
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:GENERAL FUND SUBSIDY TRANSFER OUT", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:AID ASSISTANCE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:PROPERTY TAXES", 
+                "Expense:AID PAYMENTS", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Revenue:BUSINESS TAXES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER"
+            ]
+        }, 
+        "General Funds:General": {
+            "divisions": [
+                "Public Protection:JUVENILE PROBATION", 
+                "Administration and Finance:CONTROLLER", 
+                "Public Protection:SHERIFF", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:ADULT PROBATION", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Public Works:BOARD OF APPEALS", 
+                "Public Protection:POLICE", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:ELECTIONS", 
+                "Other:SUPERIOR COURT", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Human Welfare:COUNTY EDUCATION OFFICE", 
+                "Administration and Finance:MAYOR", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Public Protection:PUBLIC DEFENDER"
+            ], 
+            "ledgers": [
+                "Expense:CAPITAL OUTLAY", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:GENERAL FUND SUBSIDY TRANSFER OUT", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:AID ASSISTANCE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:DEBT SERVICE", 
+                "Revenue:PROPERTY TAXES", 
+                "Expense:AID PAYMENTS", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Revenue:BUSINESS TAXES", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER"
+            ]
+        }, 
+        "Internal Service Funds": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "ledgers": [
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:OVERHEAD", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:RENTS & CONCESSIONS"
+            ]
+        }, 
+        "Internal Service Funds:Internal Service": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "ledgers": [
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OTHER FINANCING SOURCES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SALARIES", 
+                "Expense:OVERHEAD", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:RENTS & CONCESSIONS"
+            ]
+        }, 
+        "Other Agency Funds": {
+            "divisions": [
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Other:SUPERIOR COURT", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Human Welfare:COUNTY EDUCATION OFFICE", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:CONTRIBUTIONS(RETIREMENT;HSS;HLTH CARE)", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:OVERHEAD", 
+                "Expense:CAPITAL OUTLAY"
+            ]
+        }, 
+        "Other Agency Funds:Other Agency": {
+            "divisions": [
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Other:SUPERIOR COURT", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Human Welfare:COUNTY EDUCATION OFFICE", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "ledgers": [
+                "Revenue:OTHER REVENUES", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Expense:SALARIES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Revenue:CONTRIBUTIONS(RETIREMENT;HSS;HLTH CARE)", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:OVERHEAD", 
+                "Expense:CAPITAL OUTLAY"
+            ]
+        }, 
+        "Special Revenue Funds": {
+            "divisions": [
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:MAYOR", 
+                "Other:SUPERIOR COURT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Protection:POLICE", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Administration and Finance:CITY PLANNING", 
+                "Public Protection:SHERIFF", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN"
+            ], 
+            "ledgers": [
+                "Revenue:PROPERTY TAXES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:BUSINESS TAXES", 
+                "Expense:SALARIES", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:NON-ISF CHRGS FOR SVCS TO OTH CITY AGENC", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:DEBT SERVICE", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:AID ASSISTANCE"
+            ]
+        }, 
+        "Special Revenue Funds:Special Revenue": {
+            "divisions": [
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:MAYOR", 
+                "Other:SUPERIOR COURT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Protection:POLICE", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Administration and Finance:CITY PLANNING", 
+                "Public Protection:SHERIFF", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN"
+            ], 
+            "ledgers": [
+                "Revenue:PROPERTY TAXES", 
+                "Expense:INTRAFUND TRANSFERS OUT", 
+                "Expense:MANDATORY FRINGE BENEFITS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-STATE", 
+                "Revenue:CHARGES FOR SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Expense:CITY GRANT PROGRAMS", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:BUSINESS TAXES", 
+                "Expense:SALARIES", 
+                "Expense:PROJECT CARRYFORWARD BUDGETS ONLY", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL", 
+                "Revenue:LICENSES; PERMITS & FRANCHISES", 
+                "Revenue:EXPENDITURE RECOVERY", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:CAPITAL OUTLAY", 
+                "Revenue:OPERATING TRANSFERS IN", 
+                "Revenue:INTRAFUND TRANSFERS IN", 
+                "Expense:OVERHEAD", 
+                "Revenue:INTEREST & INVESTMENT INCOME", 
+                "Revenue:FINES; FORFEITURES & PENALTIES", 
+                "Revenue:NON-ISF CHRGS FOR SVCS TO OTH CITY AGENC", 
+                "Revenue:RENTS & CONCESSIONS", 
+                "Revenue:INTERGOVERNMENTAL REVENUES-OTHER", 
+                "Expense:PROGRAMMATIC PROJECTS", 
+                "Expense:ALLOCATED CHARGES", 
+                "Expense:DEBT SERVICE", 
+                "Expense:OPERATING TRANSFERS OUT", 
+                "Expense:OTHER SUPPORT & CARE OF PERSONS", 
+                "Revenue:OTHER LOCAL TAXES", 
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:AID ASSISTANCE"
+            ]
+        }, 
+        "Trust Funds": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN"
+            ], 
+            "ledgers": [
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS"
+            ]
+        }, 
+        "Trust Funds:Trust": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN"
+            ], 
+            "ledgers": [
+                "Expense:FACILITIES MAINTENANCE", 
+                "Expense:NON PERSONNEL SERVICES", 
+                "Expense:SERVICES OF OTHER DEPTS", 
+                "Revenue:OTHER REVENUES", 
+                "Expense:MATERIALS & SUPPLIES", 
+                "Revenue:RENTS & CONCESSIONS"
+            ]
+        }
+    }, 
+    "ledgers": {
+        "Expense": {
+            "divisions": [
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Administration and Finance:CONTROLLER", 
+                "Public Works:HETCH HETCHY", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Public Works:PORT", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Protection:ADULT PROBATION", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Public Works:WATER DEPARTMENT", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Other:SUPERIOR COURT", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Public Protection:SHERIFF", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Protection:POLICE", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Public Works:BOARD OF APPEALS", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Administration and Finance:ELECTIONS", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Human Welfare:COUNTY EDUCATION OFFICE", 
+                "Administration and Finance:MAYOR", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Public Works:TAXI COMMISSION", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "Special Revenue Funds:Special Revenue", 
+                "Internal Service Funds:Internal Service", 
+                "General Funds:General", 
+                "Capital Project Funds:Capital Project", 
+                "Trust Funds:Trust", 
+                "Other Agency Funds:Other Agency", 
+                "Debt Service Funds:Debt Service"
+            ]
+        }, 
+        "Expense:AID ASSISTANCE": {
+            "divisions": [
+                "Human Welfare:HUMAN SERVICES"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Expense:AID PAYMENTS": {
+            "divisions": [
+                "Human Welfare:HUMAN SERVICES"
+            ], 
+            "funds": [
+                "General Funds:General"
+            ]
+        }, 
+        "Expense:ALLOCATED CHARGES": {
+            "divisions": [
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Expense:CAPITAL OUTLAY": {
+            "divisions": [
+                "Public Protection:JUVENILE PROBATION", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Public Works:PORT", 
+                "Administration and Finance:CONTROLLER", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Administration and Finance:ELECTIONS", 
+                "Public Protection:POLICE", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Public Protection:SHERIFF", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:CITY PLANNING", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:PUBLIC UTILITIES COMMISSION"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Capital Project Funds:Capital Project", 
+                "Special Revenue Funds:Special Revenue", 
+                "Internal Service Funds:Internal Service", 
+                "Enterprise Funds:Enterprise", 
+                "Other Agency Funds:Other Agency"
+            ]
+        }, 
+        "Expense:CITY GRANT PROGRAMS": {
+            "divisions": [
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Public Protection:SHERIFF", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Human Welfare:ENVIRONMENT", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:MAYOR", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Protection:POLICE", 
+                "Public Protection:ADULT PROBATION", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Public Works:HETCH HETCHY", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Other:SUPERIOR COURT", 
+                "Community Health:PUBLIC HEALTH"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise", 
+                "Other Agency Funds:Other Agency"
+            ]
+        }, 
+        "Expense:DEBT SERVICE": {
+            "divisions": [
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Public Works:HETCH HETCHY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:PORT", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Debt Service Funds:Debt Service"
+            ]
+        }, 
+        "Expense:FACILITIES MAINTENANCE": {
+            "divisions": [
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Public Works:PORT", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Protection:SHERIFF", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Protection:POLICE", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Culture and Recreation:PUBLIC LIBRARY"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Trust Funds:Trust", 
+                "Enterprise Funds:Enterprise", 
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Expense:GENERAL FUND SUBSIDY TRANSFER OUT": {
+            "divisions": [
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "funds": [
+                "General Funds:General"
+            ]
+        }, 
+        "Expense:INTRAFUND TRANSFERS OUT": {
+            "divisions": [
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Public Works:PORT", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Works:WATER DEPARTMENT", 
+                "Community Health:PUBLIC HEALTH", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Culture and Recreation:PUBLIC LIBRARY"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General"
+            ]
+        }, 
+        "Expense:MANDATORY FRINGE BENEFITS": {
+            "divisions": [
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Public Works:BOARD OF APPEALS", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Protection:POLICE", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Public Protection:SHERIFF", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:CONTROLLER", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:ELECTIONS", 
+                "Community Health:PUBLIC HEALTH", 
+                "Human Welfare:COUNTY EDUCATION OFFICE", 
+                "Administration and Finance:MAYOR", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Works:TAXI COMMISSION", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Public Works:PORT", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Other:SUPERIOR COURT", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:MTA-MUNICIPAL RAILWAY"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Internal Service Funds:Internal Service", 
+                "Enterprise Funds:Enterprise", 
+                "Other Agency Funds:Other Agency"
+            ]
+        }, 
+        "Expense:MATERIALS & SUPPLIES": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Public Protection:POLICE", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Works:PORT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Administration and Finance:ELECTIONS", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Other:SUPERIOR COURT", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Public Works:WATER DEPARTMENT", 
+                "Community Health:PUBLIC HEALTH", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Administration and Finance:CONTROLLER", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Human Welfare:ENVIRONMENT", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Protection:SHERIFF", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Public Works:HETCH HETCHY", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Public Works:BOARD OF APPEALS", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Administration and Finance:MAYOR", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:TAXI COMMISSION", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES"
+            ], 
+            "funds": [
+                "Internal Service Funds:Internal Service", 
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise", 
+                "Other Agency Funds:Other Agency", 
+                "Trust Funds:Trust"
+            ]
+        }, 
+        "Expense:NON PERSONNEL SERVICES": {
+            "divisions": [
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Protection:SHERIFF", 
+                "Public Protection:POLICE", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Human Welfare:ENVIRONMENT", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Works:HETCH HETCHY", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Administration and Finance:MAYOR", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Other:SUPERIOR COURT", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Administration and Finance:ELECTIONS", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Administration and Finance:CONTROLLER", 
+                "Administration and Finance:CITY PLANNING", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Public Works:PORT", 
+                "Public Works:BOARD OF APPEALS", 
+                "Public Works:TAXI COMMISSION", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Public Works:WATER DEPARTMENT", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise", 
+                "Other Agency Funds:Other Agency", 
+                "Internal Service Funds:Internal Service", 
+                "Trust Funds:Trust"
+            ]
+        }, 
+        "Expense:OPERATING TRANSFERS OUT": {
+            "divisions": [
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Public Protection:POLICE", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:PORT", 
+                "Public Works:WASTEWATER ENTERPRISE"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Capital Project Funds:Capital Project", 
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Expense:OTHER SUPPORT & CARE OF PERSONS": {
+            "divisions": [
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:MAYOR", 
+                "Public Works:WATER DEPARTMENT"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Expense:OVERHEAD": {
+            "divisions": [
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:CITY PLANNING", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:PORT", 
+                "Public Works:WATER DEPARTMENT", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Protection:POLICE", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:TAXI COMMISSION", 
+                "Public Works:BOARD OF APPEALS", 
+                "Public Works:HETCH HETCHY", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Other:SUPERIOR COURT", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:MAYOR", 
+                "Public Protection:DISTRICT ATTORNEY"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise", 
+                "Internal Service Funds:Internal Service", 
+                "Other Agency Funds:Other Agency"
+            ]
+        }, 
+        "Expense:PROGRAMMATIC PROJECTS": {
+            "divisions": [
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:PORT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Administration and Finance:ELECTIONS", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:CONTROLLER", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:ASSESSOR / RECORDER"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise"
+            ]
+        }, 
+        "Expense:PROJECT CARRYFORWARD BUDGETS ONLY": {
+            "divisions": [
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:MAYOR", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Expense:SALARIES": {
+            "divisions": [
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:HETCH HETCHY", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Public Protection:ADULT PROBATION", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Public Protection:POLICE", 
+                "Administration and Finance:CITY PLANNING", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Human Welfare:COUNTY EDUCATION OFFICE", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Public Works:BOARD OF APPEALS", 
+                "Other:SUPERIOR COURT", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Administration and Finance:CONTROLLER", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Public Works:TAXI COMMISSION", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Administration and Finance:ELECTIONS", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Administration and Finance:MAYOR", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Protection:SHERIFF", 
+                "Public Works:PORT", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency", 
+                "Internal Service Funds:Internal Service"
+            ]
+        }, 
+        "Expense:SERVICES OF OTHER DEPTS": {
+            "divisions": [
+                "Administration and Finance:CONTROLLER", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Works:PORT", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Other:SUPERIOR COURT", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Protection:POLICE", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Public Protection:SHERIFF", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Administration and Finance:MAYOR", 
+                "Culture and Recreation:LAW LIBRARY", 
+                "Public Works:HETCH HETCHY", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Administration and Finance:ELECTIONS", 
+                "Public Works:BOARD OF APPEALS", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:WATER DEPARTMENT", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Public Works:TAXI COMMISSION", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise", 
+                "Internal Service Funds:Internal Service", 
+                "Capital Project Funds:Capital Project", 
+                "Other Agency Funds:Other Agency", 
+                "Trust Funds:Trust"
+            ]
+        }, 
+        "Revenue": {
+            "divisions": [
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Protection:SHERIFF", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Administration and Finance:MAYOR", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Other:SUPERIOR COURT", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Protection:POLICE", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Public Works:HETCH HETCHY", 
+                "Administration and Finance:CONTROLLER", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Public Works:BOARD OF APPEALS", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:PORT", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Administration and Finance:ELECTIONS", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Public Works:TAXI COMMISSION", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Public Protection:PUBLIC DEFENDER"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Other Agency Funds:Other Agency", 
+                "Enterprise Funds:Enterprise", 
+                "Capital Project Funds:Capital Project", 
+                "Debt Service Funds:Debt Service", 
+                "Internal Service Funds:Internal Service", 
+                "Trust Funds:Trust"
+            ]
+        }, 
+        "Revenue:BUSINESS TAXES": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Other:GENERAL FUND UNALLOCATED"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General"
+            ]
+        }, 
+        "Revenue:CHARGES FOR SERVICES": {
+            "divisions": [
+                "Public Protection:SHERIFF", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Administration and Finance:CITY PLANNING", 
+                "Other:SUPERIOR COURT", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Protection:POLICE", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Administration and Finance:CONTROLLER", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Works:BOARD OF APPEALS", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Works:PORT", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Public Works:HETCH HETCHY", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:TAXI COMMISSION", 
+                "Administration and Finance:ELECTIONS", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise"
+            ]
+        }, 
+        "Revenue:CONTRIBUTIONS(RETIREMENT;HSS;HLTH CARE)": {
+            "divisions": [
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "funds": [
+                "Other Agency Funds:Other Agency"
+            ]
+        }, 
+        "Revenue:EXPENDITURE RECOVERY": {
+            "divisions": [
+                "Public Works:PUBLIC UTILITIES COMMISSION", 
+                "Administration and Finance:CITY PLANNING", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:MTA-MUNICIPAL TRANSPORTATION AGENCY", 
+                "Human Welfare:HUMAN RIGHTS COMMISSION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:POLICE", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Protection:ADULT PROBATION", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Administration and Finance:ELECTIONS", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Administration and Finance:MAYOR", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Works:PORT", 
+                "Public Protection:SHERIFF", 
+                "Administration and Finance:BOARD OF SUPERVISORS", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Administration and Finance:CIVIL SERVICE COMMISSION", 
+                "Administration and Finance:CONTROLLER", 
+                "Human Welfare:RENT ARBITRATION BOARD", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:TAXI COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Other Agency Funds:Other Agency", 
+                "Internal Service Funds:Internal Service"
+            ]
+        }, 
+        "Revenue:FINES; FORFEITURES & PENALTIES": {
+            "divisions": [
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Protection:POLICE", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:CITY ATTORNEY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Protection:SHERIFF", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:PORT", 
+                "Other:SUPERIOR COURT"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise", 
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Revenue:INTEREST & INVESTMENT INCOME": {
+            "divisions": [
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Public Works:HETCH HETCHY", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Administration and Finance:RETIREMENT SYSTEM", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Works:PORT", 
+                "Public Protection:POLICE", 
+                "Other:SUPERIOR COURT", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Protection:SHERIFF", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Works:MTA-MUNICIPAL RAILWAY"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise", 
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Capital Project Funds:Capital Project", 
+                "Other Agency Funds:Other Agency"
+            ]
+        }, 
+        "Revenue:INTERGOVERNMENTAL REVENUES-FEDERAL": {
+            "divisions": [
+                "Administration and Finance:MAYOR", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Protection:ADULT PROBATION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Public Protection:JUVENILE PROBATION", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Public Protection:POLICE", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Administration and Finance:CITY PLANNING", 
+                "Public Protection:SHERIFF", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Protection:PUBLIC DEFENDER", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Culture and Recreation:PUBLIC LIBRARY"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise", 
+                "Capital Project Funds:Capital Project"
+            ]
+        }, 
+        "Revenue:INTERGOVERNMENTAL REVENUES-OTHER": {
+            "divisions": [
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:CITY PLANNING", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project", 
+                "Enterprise Funds:Enterprise", 
+                "General Funds:General"
+            ]
+        }, 
+        "Revenue:INTERGOVERNMENTAL REVENUES-STATE": {
+            "divisions": [
+                "Public Protection:JUVENILE PROBATION", 
+                "Public Protection:DISTRICT ATTORNEY", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Protection:ADULT PROBATION", 
+                "Administration and Finance:MAYOR", 
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:CITY PLANNING", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Human Welfare:ENVIRONMENT", 
+                "Administration and Finance:ELECTIONS", 
+                "Public Protection:POLICE", 
+                "Other:SUPERIOR COURT", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Human Welfare:CHILD SUPPORT SERVICES", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Protection:SHERIFF", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Public Works:WASTEWATER ENTERPRISE"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise", 
+                "Debt Service Funds:Debt Service", 
+                "Other Agency Funds:Other Agency", 
+                "Capital Project Funds:Capital Project"
+            ]
+        }, 
+        "Revenue:INTRAFUND TRANSFERS IN": {
+            "divisions": [
+                "Human Welfare:ENVIRONMENT", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:PORT", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Community Health:PUBLIC HEALTH", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:HETCH HETCHY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise"
+            ]
+        }, 
+        "Revenue:ISF CHARGES FOR SERVICES": {
+            "divisions": [
+                "Community Health:PUBLIC HEALTH"
+            ], 
+            "funds": [
+                "Enterprise Funds:Enterprise"
+            ]
+        }, 
+        "Revenue:LICENSES; PERMITS & FRANCHISES": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:TAXI COMMISSION", 
+                "Administration and Finance:ETHICS COMMISSION", 
+                "Public Protection:POLICE", 
+                "Public Works:DEPARTMENT OF BUILDING INSPECTION", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise"
+            ]
+        }, 
+        "Revenue:NON-ISF CHRGS FOR SVCS TO OTH CITY AGENC": {
+            "divisions": [
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Revenue:OPERATING TRANSFERS IN": {
+            "divisions": [
+                "Human Welfare:DEPARTMENT OF THE STATUS OF WOMEN", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Protection:POLICE", 
+                "Public Protection:DEPARTMENT OF EMERGENCY MANAGEMENT", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Human Welfare:CHILDREN AND FAMILIES COMMISSION", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Works:PORT", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:ASSESSOR / RECORDER", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Works:HETCH HETCHY", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Human Welfare:ENVIRONMENT", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise", 
+                "Internal Service Funds:Internal Service", 
+                "Debt Service Funds:Debt Service"
+            ]
+        }, 
+        "Revenue:OTHER FINANCING SOURCES": {
+            "divisions": [
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:PORT", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Works:WATER DEPARTMENT", 
+                "Public Works:HETCH HETCHY"
+            ], 
+            "funds": [
+                "Capital Project Funds:Capital Project", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise", 
+                "Internal Service Funds:Internal Service"
+            ]
+        }, 
+        "Revenue:OTHER LOCAL TAXES": {
+            "divisions": [
+                "Culture and Recreation:ACADEMY OF SCIENCES", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Culture and Recreation:FINE ARTS MUSEUM", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Administration and Finance:MAYOR", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Culture and Recreation:ASIAN ART MUSEUM", 
+                "Culture and Recreation:WAR MEMORIAL"
+            ], 
+            "funds": [
+                "General Funds:General", 
+                "Special Revenue Funds:Special Revenue"
+            ]
+        }, 
+        "Revenue:OTHER REVENUES": {
+            "divisions": [
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:CITY PLANNING", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Community Health:PUBLIC HEALTH", 
+                "Public Works:PORT", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR", 
+                "Public Works:ECONOMIC AND WORKFORCE DEVELOPMENT", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Administration and Finance:HEALTH SERVICE SYSTEM", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:WATER DEPARTMENT", 
+                "Culture and Recreation:ARTS COMMISSION", 
+                "Human Welfare:ENVIRONMENT", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Administration and Finance:MAYOR", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:HETCH HETCHY", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY"
+            ], 
+            "funds": [
+                "Other Agency Funds:Other Agency", 
+                "General Funds:General", 
+                "Capital Project Funds:Capital Project", 
+                "Special Revenue Funds:Special Revenue", 
+                "Enterprise Funds:Enterprise", 
+                "Trust Funds:Trust"
+            ]
+        }, 
+        "Revenue:PROPERTY TAXES": {
+            "divisions": [
+                "Human Welfare:CHILDREN; YOUTH & THEIR FAMILIES", 
+                "Administration and Finance:GENERAL CITY RESPONSIBILITY", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Administration and Finance:CONTROLLER", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Human Welfare:CHILDREN YOUTH & THEIR FAMILIES", 
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Administration and Finance:TREASURER/TAX COLLECTOR"
+            ], 
+            "funds": [
+                "Special Revenue Funds:Special Revenue", 
+                "Debt Service Funds:Debt Service", 
+                "General Funds:General"
+            ]
+        }, 
+        "Revenue:RENTS & CONCESSIONS": {
+            "divisions": [
+                "Culture and Recreation:PUBLIC LIBRARY", 
+                "Other:GENERAL FUND UNALLOCATED", 
+                "Public Protection:FIRE DEPARTMENT", 
+                "Human Welfare:HUMAN SERVICES", 
+                "Culture and Recreation:RECREATION AND PARK COMMISSION", 
+                "Public Works:HETCH HETCHY", 
+                "Culture and Recreation:WAR MEMORIAL", 
+                "Public Works:MUNICIPAL TRANSPORTATION AGENCY", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - CITY ADMIN", 
+                "Public Works:GENERAL SERVICES AGENCY - PUBLIC WORKS", 
+                "Public Works:AIRPORT COMMISSION", 
+                "Public Works:WASTEWATER ENTERPRISE", 
+                "Public Works:MTA-MUNICIPAL RAILWAY", 
+                "Community Health:PUBLIC HEALTH", 
+                "Administration and Finance:GENERAL SERVICES AGENCY - TECHNOLOGY", 
+                "Public Works:MTA-PARKING AND TRAFFIC COMMISSION", 
+                "Public Works:WATER DEPARTMENT", 
+                "Administration and Finance:HUMAN RESOURCES", 
+                "Public Works:PORT"
+            ], 
+            "funds": [
+                "Other Agency Funds:Other Agency", 
+                "General Funds:General", 
+                "Enterprise Funds:Enterprise", 
+                "Special Revenue Funds:Special Revenue", 
+                "Capital Project Funds:Capital Project", 
+                "Internal Service Funds:Internal Service", 
+                "Trust Funds:Trust"
+            ]
+        }
+    }
+}
