@@ -111,7 +111,21 @@
 
             return dropdown;
         },
-        
+
+        DropdownReplace: function (id, text) {
+
+            var oldElem = this.drops[id].element;
+            var dropdown = new B.Dropdown(id, text);
+            this.dropdowns[id] = dropdown;
+
+//            this.dropContainer.appendChild(dropdown.element);
+            dropdown.element.inject(oldElem,'before');
+            oldElem.destroy();
+            dropdown.root = this;
+            
+            return dropdown;
+        },
+
         setDeselected : function(){
         
         },
@@ -131,7 +145,7 @@
             });
             this.visible = false;
             this.button.removeClass('active');
-            B.checkEmpty(); //??
+//            B.checkEmpty(); //?? //adrian this was causing problems
         },
 
         toggle : function(){

@@ -111,7 +111,21 @@
 
             return dropdown;
         },
-        
+
+        DropdownReplace: function (id, text) {
+
+            var oldElem = this.dropdowns[id].element;
+            var dropdown = new B.Dropdown(id, text);
+            this.dropdowns[id] = dropdown;
+
+//            this.dropContainer.appendChild(dropdown.element);
+            dropdown.element.inject(oldElem,'before');
+            oldElem.destroy();
+            dropdown.root = this;
+            
+            return dropdown;
+        },
+
         setDeselected : function(){
         
         },

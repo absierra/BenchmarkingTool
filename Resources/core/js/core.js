@@ -170,7 +170,7 @@
             onComplete: function() {
               var labels = $$('.searchSelected');
               labels.each(function(label) {
-                console.log(label);
+//                console.log(label);
                 label.retrieve('node').element.inject(top,'after');
               });
             }
@@ -1335,9 +1335,10 @@
       } else {
         dropdown = msd.Dropdown(dropID, dropText);
       }
-      addExpenditure(dropdown, selectedCity);
-      addRevenue(dropdown, selectedCity);
-      addMetrics(dropdown, selectedCity);
+      parentOpts = { exclusive: 1, uncheck: 1 };
+      addExpenditure(dropdown, selectedCity, childOpts, parentOpts);
+      addRevenue(dropdown, selectedCity, childOpts, parentOpts);
+      addMetrics(dropdown, selectedCity, childOpts, parentOpts);
 
       _.invoke(nodes, 'updateDomCheckState');
       _.invoke(nodes, 'updateDomEnableState');
@@ -1361,7 +1362,7 @@
       var weights = 'Comprehensive';
       
       
-      var extraWeights = '{"Expenditure:Public Safety:Fire":".0000003"}';//LEFT OFF HERE DO THE EXPEND/REV WEIGHTS
+      var extraWeights = '{}';//'{"Expenditure:Public Safety:Fire":".0000003"}';//LEFT OFF HERE DO THE EXPEND/REV WEIGHTS
 //        var measure = '{}';
 //      checked = msd.dropdowns['Groupings'].checkedNodes;
 //      for (var elem in checked) {
@@ -1402,6 +1403,7 @@
 
           _.invoke(dropdown.allNodes, 'updateDomCheckState');
           _.invoke(dropdown.allNodes, 'updateDomEnableState');
+          window.fireEvent('resize');
         }
       });
       jsonReq.send();
@@ -1429,6 +1431,52 @@
 //      }
     }
 
+    //merges numerical string values of obj2 into obj1
+    function mergeTotals(obj1, obj2) {
+//      console.log(obj2);
+      _.each(obj2, function(obj, id) {
+        if ((typeof obj == "string" && !isNaN(+obj)) || (!isNaN(+obj) && obj)) {
+//                console.log(obj);
+          if (obj1.hasOwnProperty(id)) {
+            obj1[id] = obj1[id] + +obj;
+          } else {
+            obj1[id] = +obj;
+          }
+        }
+      });
+//      if (obj1 !== {} ) { console.log(obj1); }
+    }
+
+    function aggregateChildren(children) {
+      var total = {};
+      mergeTotals(total,children);
+      for (var id in children) {
+        if (children.hasOwnProperty(id)) {
+          var obj = children[id];
+          if (typeof obj == "string") {
+  //          console.log(obj);
+//            return;
+              continue;
+          }
+          var check1 = aggregateChildren(obj);
+          mergeTotals(total,check1);
+          var check2 = total;
+  //        console.log(total);
+        }
+      }
+//      _.each(children, function(obj, id) {
+//        if (typeof obj == "string") {
+////          console.log(obj);
+//          return;
+//        }
+//        mergeTotals(total,aggregateChildren(obj));
+////        console.log(total);
+//      });
+//      console.log(total);
+//      if ("2005" in total) { console.log(total); };
+      return total;
+    }
+
     function getDataToDisplay() {
       var checked = msd.dropdowns['Metrics'].checkedNodes;    
       var topNodes = _.filter(checked, function(node) {
@@ -1454,7 +1502,7 @@
               subData: {}
           };
           var path = JSON.decode(node.id).slice(1);
-          console.log(path);
+//          console.log(path);
           var data = city;
           var lastLabel = '';//FOR METRIC SPECIAL CASE
           _.each(path, function(index) {
@@ -1467,7 +1515,7 @@
             } else {
               dataLine['data'] = aggregateChildren(data);
             }
-            console.log(dataLine['data']);
+//            console.log(dataLine['data']);
           }
           _.each(dataLine['data'], function(value, key) {
             if (graphData['header'].contains(key)) {
@@ -1490,19 +1538,22 @@
       switch (node.dropdown.id) {
         case 'Cities':
           changeCity(node);
-          changeSuggestions(node);
+//          changeSuggestions(node);
           break;
         case 'Groupings':
+//          changeGrouping(node);
           changeSuggestions(node);
           break;
         case 'Metrics':
           getDataToDisplay();
-          B.updateData();
+          renderTable2();
+//          B.updateData();
           break;
         case 'Comparable Cities':
           storeCityData();
           getDataToDisplay();
-          B.updateData();
+          renderTable2();
+//          B.updateData();
           break;
         default:
           break;
@@ -1530,7 +1581,7 @@
 
             this.toggleExplicitCheckClick();
             changeEverything(this);
-//            window.fireEvent('resize');
+            window.fireEvent('resize');
         });
 
         msd.addEvent('textClick', function () {
@@ -2077,6 +2128,9 @@
 //        tableContainer  = document.id('table');
 //        legendContainer = document.id('legend');
 //        graphAndLegend = document.id('graphAndLegend');
+        buttonContainer = document.id('graphButtons');
+        tableContainer  = document.id('table');
+        graphAndLegend = document.id('graphAndLegend');
 
 //        info  = new B.Info();
 //        notes = new B.Notes();
@@ -2162,7 +2216,7 @@
         if (typeof obj == "string" ) {
           return;
         }
-        fillHierarchy(node, obj, workingPath);
+        fillHierarchy2(node, obj, workingPath, options);
       });
     }
     
@@ -2173,6 +2227,132 @@
         }
       }
       return true;
+    }
+    
+    function renderTable2(data) {
+        tableContainer.getChildren().destroy();
+        var table = new Element('table', {id: 'tableElement'});
+        var thead = new Element('thead', {id: 'tableHead'});
+        var header = new Element('tr');
+        var totalYears = graphData['header'].length;
+
+        table.append(thead);
+        thead.append(
+            header.append(
+                new Element('th', {'html':'&nbsp;'})));
+
+        var j = 1; // counter for th's
+        _.each(graphData['header'], function (year) {
+            var th = new Element('th', {'text': year});
+            header.appendChild(th);
+            if (j == totalYears) {
+                th.addClass('head-last-child');
+                j = 1;
+            }
+            j++;
+        });
+
+        var tbody = new Element('tbody', {id: 'tableBody'});
+        table.appendChild(tbody);
+
+        var totals = new Array();
+        var i = 0;
+//        var sortedData = data.sort(function(a,b){return b.sortedYears.slice(-1)-a.sortedYears.slice(-1)});
+        _.each(graphData['dataLines'], function (d) {
+            var j = 1; // counter for td's
+            if (!isEven(i) == true) {
+                var tr = new Element('tr', {'class':'odd'});
+            } else {
+                var tr = new Element('tr');
+            }
+            i++;
+            tbody.appendChild(tr);
+            var td = new Element('td', {'text': d.name});
+            tr.appendChild(td);
+
+            for (var k=0; k<graphData['header'].length; k++) {
+                var label = graphData['header'][k];
+                var datum = d['data'][label] ? d['data'][label] : 0;
+                td = new Element('td', {'html': numberFormat(datum).replace('$ ', '&nbsp;&nbsp;&nbsp;&nbsp;')});
+                if (j == totalYears) {
+                    td.addClass('tbody-last-child');
+                    j = 1;
+                }
+                j++;
+                if (!totals[k])
+                    totals[k] = 0;
+                totals[k] += +datum;
+                tr.appendChild(td);
+            }
+        });
+
+        var tfoot = new Element('tfoot', {id: 'tableFoot'});
+        table.append(tfoot);
+
+        var tr = new Element('tr');
+        tfoot.appendChild(tr);
+
+        var th = new Element('th', {'text': 'TOTAL'});
+        tr.appendChild(th);
+        var j = 1;
+        _.each(totals, function (year) {
+            th = new Element('th', {'text': numberFormat(year).replace(' ', '')});
+            tr.appendChild(th);
+            if (j == totalYears) {
+                th.addClass('foot-last-child');
+                j = 1;
+            }
+            j++;
+        });
+
+//        if(currentBreakdown == 'salaryJobAverage' || currentBreakdown == 'expVsRevBreakdown'){ //adrian
+//        	tfoot.style.visibility = 'hidden';
+//        }else{
+        	tfoot.style.visibility = 'visible';
+//        }
+
+        tableContainer.appendChild(table);
+    }
+    
+    function renderTable3() {
+        tableContainer.getChildren().destroy();
+        var table = new Element('table', {id: 'tableElement'});
+        var thead = new Element('thead', {id: 'tableHead'});
+        var header = new Element('tr');
+
+        table.append(thead);
+        thead.append(
+            header.append(
+                new Element('th', {'html':'&nbsp;'})));
+
+//        console.log(graphData['header'])
+        _.each(graphData['header'], function (year) {
+//            console.log(year);
+            var th = new Element('th', {'text': year});
+            header.appendChild(th);
+        });
+
+        var tbody = new Element('tbody', {id: 'tableBody'});
+        table.appendChild(tbody);
+
+//        console.log(graphData['dataLines']);
+        _.each(graphData['dataLines'], function (d) {
+            var tr = new Element('tr');
+            tbody.appendChild(tr);
+            var td = new Element('td', {'text': d.name});
+            tr.appendChild(td);
+
+            _.each(graphData['header'], function (label) {
+                var txt = '-';
+                if (label in d['data']) {
+                  txt = d['data'][label];
+                }
+                td = new Element('td', {'text': txt});
+                tr.appendChild(td);
+            });
+        });
+
+        tableContainer.appendChild(table);
     }
 //    var msd;
     var defaultNodes = {};
