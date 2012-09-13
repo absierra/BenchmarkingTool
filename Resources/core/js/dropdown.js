@@ -527,6 +527,8 @@
 
 
         implicitCheck: function (disable) {
+            if (!this.enabled)
+                return this; //adrian stop disabled nodes from being checked
             _.invoke(this.children, this.implicitCheck);
             if (!this.checked && !this.noaggregate) {
                 this.setCheck();
@@ -886,8 +888,8 @@
         },
 
         hide: function () {
-            if (this.nocheckbox)
-                return;
+//            if (this.nocheckbox)
+//                return;
 
             this.childContainer &&
             $(this.childContainer).hide();

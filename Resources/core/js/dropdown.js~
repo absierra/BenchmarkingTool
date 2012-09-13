@@ -114,7 +114,7 @@
 
         DropdownReplace: function (id, text) {
 
-            var oldElem = this.drops[id].element;
+            var oldElem = this.dropdowns[id].element;
             var dropdown = new B.Dropdown(id, text);
             this.dropdowns[id] = dropdown;
 
@@ -527,6 +527,8 @@
 
 
         implicitCheck: function (disable) {
+            if (!this.enabled)
+                return this;
             _.invoke(this.children, this.implicitCheck);
             if (!this.checked && !this.noaggregate) {
                 this.setCheck();
@@ -886,8 +888,8 @@
         },
 
         hide: function () {
-            if (this.nocheckbox)
-                return;
+//            if (this.nocheckbox)
+//                return;
 
             this.childContainer &&
             $(this.childContainer).hide();

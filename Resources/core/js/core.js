@@ -1288,7 +1288,7 @@
       fillHierarchy2(node, B.SCOBudgets[selectedCity][selectedCity]["Revenue"], new Array(dropdown.id,'Revenue'), options);
     }
     
-    function addMetrics(dropdown, selectedCity, childOpts, parentOpts) {
+    function addMetrics(dropdown, selectedCity, childOpts, parentOpts, leafopts) {
       var ID = JSON.encode(new Array(dropdown.id,'Metrics'));
       var options = parentOpts || {exclusive:1};
       var node = nodes[ID] = dropdown.Node(ID,'Metrics',options);
@@ -1296,7 +1296,7 @@
       node.updateDomEnableState();
 //      fillHierarchy(node, B.SCOMetrics[selectedCity], new Array(dropdown.id,'Metrics'));
       options = childOpts || false;
-      fillHierarchy2(node, B.SCOBenchmarks[selectedCity], new Array(dropdown.id,'Benchmarks'), options);
+      fillHierarchy2(node, B.SCOBenchmarks[selectedCity], new Array(dropdown.id,'Benchmarks'), options, leafopts);
     }
 
     function changeCity(node) {
@@ -1338,7 +1338,7 @@
       parentOpts = { exclusive: 1, uncheck: 1 };
       addExpenditure(dropdown, selectedCity, childOpts, parentOpts);
       addRevenue(dropdown, selectedCity, childOpts, parentOpts);
-      addMetrics(dropdown, selectedCity, childOpts, parentOpts);
+      addMetrics(dropdown, selectedCity, { exclusive:1, uncheck:1, nocheckbox:1 }, { exclusive:1, uncheck:1, nocheckbox:1 }, { exclusive:1, uncheck:1 });
 
       _.invoke(nodes, 'updateDomCheckState');
       _.invoke(nodes, 'updateDomEnableState');
@@ -1347,6 +1347,10 @@
       nodes[compID].fireEvent('checkClick');
       nodes[JSON.encode(new Array('Metrics','Expenditure'))].fireEvent('checkClick');
       nodes[JSON.encode(new Array('Metrics','Expenditure'))].hide();
+    }
+
+    function getExpRevWeights() {
+      return;
     }
 
     function changeSuggestions(node) {
@@ -1435,7 +1439,7 @@
     function mergeTotals(obj1, obj2) {
 //      console.log(obj2);
       _.each(obj2, function(obj, id) {
-        if ((typeof obj == "string" && !isNaN(+obj)) || (!isNaN(+obj) && obj)) {
+        if ((typeof obj == "string" && !isNaN(+obj)) || (!isNaN(+obj) && (obj.length == undefined))) {
 //                console.log(obj);
           if (obj1.hasOwnProperty(id)) {
             obj1[id] = obj1[id] + +obj;
@@ -1483,7 +1487,7 @@
         if (node.partialChecked) {
           return false;
         }
-        if (node.mother.isDropdown || !node.mother.checked) {
+        if (node.mother.isDropdown || !node.mother.checked || node.mother.partialChecked) {
           return true;
         }
         return false;
@@ -1496,7 +1500,7 @@
 //        console.log(cityName);
         _.each(topNodes, function(node) {
           var dataLine = {
-              name:  cityName,
+              name:  cityName+":"+node.text,
               id:    node.id,
               data: {},
               subData: {}
@@ -1510,11 +1514,11 @@
             lastLabel = index;//FOR METRIC SPECIAL CASE
           });
           if (data) {
-            if (!isNaN(+data)) {//HACKY SPECIAL CASE FOR METRICS
-              dataLine['data'][lastLabel] = +data;
-            } else {
+//            if (!isNaN(+data)) {//HACKY SPECIAL CASE FOR METRICS
+//              dataLine['data'][lastLabel] = +data;
+//            } else {
               dataLine['data'] = aggregateChildren(data);
-            }
+//            }
 //            console.log(dataLine['data']);
           }
           _.each(dataLine['data'], function(value, key) {
@@ -1531,7 +1535,7 @@
         });
       });
       graphData['header'].sort();
-//      console.log(graphData);
+      console.log(graphData);
     }
 
     function changeEverything(node) {
@@ -1546,13 +1550,19 @@
           break;
         case 'Metrics':
           getDataToDisplay();
-          renderTable2();
+          if (graphData['dataLines'])
+            renderTable2();
+          else
+            tableContainer.hide();
 //          B.updateData();
           break;
         case 'Comparable Cities':
           storeCityData();
           getDataToDisplay();
-          renderTable2();
+          if (graphData['dataLines'])
+            renderTable2();
+          else
+            tableContainer.hide();
 //          B.updateData();
           break;
         default:
@@ -2185,7 +2195,7 @@
 
     // Recursively iterate over the budget hieararchy and fill in the dropdowns
     //opts is an optional parameter
-    function fillHierarchy2(mother, children, idpath, opts) {
+    function fillHierarchy2(mother, children, idpath, opts, leafopts) {
       _.each(children, function(obj, id) {
         if (id == "_id" || id == "CityName") {
           return;
@@ -2210,13 +2220,17 @@
         workingPath.push(id);
         var newID = JSON.encode(workingPath);
         //console.log(newID);
-        var node = nodes[newID] = mother.Node(newID,id,options);
-        node.enabled = !isEmpty(obj);
 //        node.updateDomEnableState();
         if (typeof obj == "string" ) {
+          if (leafopts)
+            options = leafopts;
+          var node = nodes[newID] = mother.Node(newID,id,options);
+          node.enabled = !isEmpty(obj);
           return;
         }
-        fillHierarchy2(node, obj, workingPath, options);
+        var node = nodes[newID] = mother.Node(newID,id,options);
+        node.enabled = !isEmpty(obj);
+        fillHierarchy2(node, obj, workingPath, options, leafopts);
       });
     }
     

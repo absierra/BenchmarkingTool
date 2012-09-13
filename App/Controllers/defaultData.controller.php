@@ -16,7 +16,7 @@ $collection = 'Metrics';
 $dw = new DatabaseWrapper($mon, $db, $collection);
 $renderer->assign( 'SCOMetrics',json_encode($dw->getCollection()) );
 
-$collection = 'benchmarkData';
+$collection = 'benchmarkDataOrganized';
 $dw = new DatabaseWrapper($mon, $db, $collection);
 $renderer->assign('SCOBenchmarks',json_encode($dw->getCollection()) );
 
