@@ -422,6 +422,11 @@ svg path {
 #dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu.rootDropMenu {
   display: block;
 }
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropMenu{/*ADRIAN*/
+  font-family: "ProximaNova";
+  margin-left: 12px;
+  font-size: 12px;
+}
 #dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropMenu .dropMenu {
   font-family: "ProximaNova";
   margin-left: 24px;

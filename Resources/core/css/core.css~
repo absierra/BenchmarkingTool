@@ -252,7 +252,7 @@ svg path {
   color: #00ade2;
 }
 /* Start: dropdowns */
-.dropdowns {
+#dropdowns {
   display: inline-block;
   height: 42px;
   color: #fff;
@@ -264,7 +264,7 @@ svg path {
   -ms-user-select: none;
   user-select: none;
 }
-.dropdowns .masterButton {
+#dropdowns .masterButton {
   color: #b2b3b6;
   cursor: pointer;
   font-family: "ProximaNova-Bold";
@@ -276,24 +276,24 @@ svg path {
   vertical-align: middle;
   background: url("/Resources/core/img/filter-button.png") no-repeat 0 0 transparent;
 }
-.dropdowns .masterButton:hover {
+#dropdowns .masterButton:hover {
   color: #ccc;
   background: #333333 url("/Resources/core/img/filter-button.png") no-repeat 0 -39px;
 }
-.dropdowns .masterButton.active {
+#dropdowns .masterButton.active {
   background: #333333 url("/Resources/core/img/filter-button.png") no-repeat 0 -39px;
 }
-.dropdowns .masterDropdown {
+#dropdowns .masterDropdown {
   display: table;
   position: absolute;
   z-index: 11;
 }
-.dropdowns .masterDropdown .dropdown {
+#dropdowns .masterDropdown .dropdown {
   display: table-cell;
   position: relative;
   z-index: 4;
 }
-.dropdowns .masterDropdown .dropdown .text {
+#dropdowns .masterDropdown .dropdown .text {
   font-family: "ProximaNova-Bold";
   height: 29px;
   line-height: 30px;
@@ -306,7 +306,7 @@ svg path {
   width: 100%;
   text-indent: 15px;
 }
-.dropdowns .masterDropdown .dropdown .dropButton {
+#dropdowns .masterDropdown .dropdown .dropButton {
   display: inline-block;
   cursor: pointer;
   background-color: #1d1e1e;
@@ -323,7 +323,7 @@ svg path {
   width: 42px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .dropButton:hover {
+#dropdowns .masterDropdown .dropdown .dropButton:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-large-icons.png');
@@ -338,7 +338,7 @@ svg path {
   vertical-align: middle;
   background-color: #1d1e1e;
 }
-.dropdowns .masterDropdown .dropdown .dropButton.expanded {
+#dropdowns .masterDropdown .dropdown .dropButton.expanded {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-large-icons.png');
@@ -352,7 +352,7 @@ svg path {
   width: 42px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .dropButton.expanded:hover {
+#dropdowns .masterDropdown .dropdown .dropButton.expanded:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-large-icons.png');
@@ -367,7 +367,7 @@ svg path {
   vertical-align: middle;
   background-color: #1d1e1e;
 }
-.dropdowns .masterDropdown .dropdown .dropButton.disabled {
+#dropdowns .masterDropdown .dropdown .dropButton.disabled {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-large-icons.png');
@@ -381,31 +381,31 @@ svg path {
   width: 42px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown:first-child .dropItem {
+#dropdowns .masterDropdown .dropdown:first-child .dropItem {
   line-height: 18px !important;
   margin: 5px 0;
 }
-.dropdowns .masterDropdown .dropdown:first-child .dropItem:first-child {
+#dropdowns .masterDropdown .dropdown:first-child .dropItem:first-child {
   margin-top: 0;
 }
-.dropdowns .masterDropdown .dropdown:first-child .dropItem .dropLabel {
+#dropdowns .masterDropdown .dropdown:first-child .dropItem .dropLabel {
   white-space: normal;
   display: inline-block !important;
   margin-top: 3px;
 }
-.dropdowns .masterDropdown .dropdown:first-child .dropItem .checkbox {
+#dropdowns .masterDropdown .dropdown:first-child .dropItem .checkbox {
   vertical-align: top !important;
   margin: 3px 7px 0 0 !important;
 }
-.dropdowns .masterDropdown .dropdown:first-child .hierarchyAndApply {
+#dropdowns .masterDropdown .dropdown:first-child .hierarchyAndApply {
   width: 180px;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .applyContainer {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .applyContainer {
   text-align: center;
   font-family: "ProximaNova-Bold";
   background: url("/Resources/core/img/bg_dropdown_apply.png") repeat scroll 0 0 transparent;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .rootDropMenu {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .rootDropMenu {
   padding: 5px 12px 10px 12px;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -413,41 +413,46 @@ svg path {
   background: url("/Resources/core/img/k90a95.png") repeat scroll 0 0 transparent;
   border-top: 1px solid #4c4d4e;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu {
   line-height: 28px;
   list-style: none;
   text-align: left;
   font-family: "ProximaNova-Bold";
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu.rootDropMenu {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu.rootDropMenu {
   display: block;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropMenu .dropMenu {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropMenu{
+  font-family: "ProximaNova";
+  margin-left: 12px;
+  font-size: 12px;
+}
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropMenu .dropMenu {
   font-family: "ProximaNova";
   margin-left: 24px;
   font-size: 12px;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .specialEmployeeBreakDown .dropMenu {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .specialEmployeeBreakDown .dropMenu {
   margin-left: 42px;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem {
   display: block;
   white-space: nowrap;
   line-height: 28px;
   font-size: 12px;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.extraPadding {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.extraPadding {
   /* for ie */
 
   padding-right: 10px;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.noChildren > .expand {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.noChildren > .expand {
   visibility: hidden;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .noExpand .expand {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .noExpand .expand {
   visibility: hidden;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand {
   display: inline-block;
   vertical-align: middle;
   cursor: pointer;
@@ -464,7 +469,7 @@ svg path {
   width: 22px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-icons.png');
@@ -478,7 +483,7 @@ svg path {
   width: 22px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-icons.png');
@@ -492,7 +497,7 @@ svg path {
   width: 22px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-icons.png');
@@ -506,10 +511,10 @@ svg path {
   width: 22px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded ~ .dropMenu {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.expanded ~ .dropMenu {
   display: block;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.disabled {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .expand.disabled {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/arrow-icons.png');
@@ -523,28 +528,28 @@ svg path {
   width: 22px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .dropLabel {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .dropLabel {
   display: inline-block;
   white-space: nowrap;
   cursor: pointer;
   width: 100%;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .dropLabel:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .dropLabel:hover {
   color: #0099cc;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled {
   color: #666;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .checkbox {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .checkbox {
   visibility: hidden;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .dropLabel {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .dropLabel {
   cursor: default;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .dropLabel:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem.disabled > .dropLabel:hover {
   color: #666;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -552,7 +557,7 @@ svg path {
   margin-right: 7px;
   cursor: pointer;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.emptyCheck {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.emptyCheck {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/checkbox-icons.png');
@@ -566,7 +571,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.emptyCheck:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.emptyCheck:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/checkbox-icons.png');
@@ -580,7 +585,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.fullCheck {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.fullCheck {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/checkbox-icons.png');
@@ -594,7 +599,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.fullCheck:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.fullCheck:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/checkbox-icons.png');
@@ -608,7 +613,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.partialCheck {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.partialCheck {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/checkbox-icons.png');
@@ -622,7 +627,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.partialCheck:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.partialCheck:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/checkbox-icons.png');
@@ -636,7 +641,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.emptyCheck {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.emptyCheck {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/radio-icons.png');
@@ -650,7 +655,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.emptyCheck:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.emptyCheck:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/radio-icons.png');
@@ -664,7 +669,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.fullCheck {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.fullCheck {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/radio-icons.png');
@@ -678,7 +683,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.partialCheck {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.partialCheck {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/radio-icons.png');
@@ -692,7 +697,7 @@ svg path {
   width: 18px;
   vertical-align: middle;
 }
-.dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.partialCheck:hover {
+#dropdowns .masterDropdown .dropdown .hierarchyAndApply .dropMenu .dropItem .checkbox.radio.partialCheck:hover {
   display: block;
   display: inline-block;
   background-image: url('/Resources/core/img/radio-icons.png');
@@ -2376,7 +2381,7 @@ svg path {
 
 /*ADRIAN ADDED
 styling for search box. probably not all necessary*/
-.dropdowns .dropdown .dropItem .searchButton {
+#dropdowns .dropdown .dropItem .searchButton {
   display: block;
   display: inline-block;
  /* background-image: url('/Resources/core/img/magnifyingglasssmall.png');*/
@@ -2390,13 +2395,13 @@ styling for search box. probably not all necessary*/
   vertical-align: middle;
 }
 
-.dropdowns .dropdown .dropItem .searchBox {
+#dropdowns .dropdown .dropItem .searchBox {
   display: inline-block;
   height: 18px;
   width: 120px;
 }
 
-.dropdowns .dropdown .dropItem .searchLabel {
+#dropdowns .dropdown .dropItem .searchLabel {
   display: inline-block;
   vertical-align: middle;
   padding-left: 5px;
